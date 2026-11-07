@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>13 Mistakes Every New Poker Dealer Makes (From 2,676 Real Corrections)</title>
+<meta name="description" content="A working poker room dealer and trainer tracked 2,676 real corrections across dozens of live training classes. Here are the 13 mistakes that come up most, and exactly how to fix each one.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/common-poker-dealer-mistakes/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "13 Mistakes Every New Poker Dealer Makes (From 2,676 Real Corrections)",
+  "description": "A working poker room dealer and trainer tracked 2,676 real corrections across dozens of live training classes. Here are the 13 mistakes that come up most, and exactly how to fix each one.",
+  "datePublished": "2026-11-07",
+  "author": { "@type": "Organization", "name": "True Poker Dealer" },
+  "publisher": { "@type": "Organization", "name": "True Poker Dealer" }
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/tools/side-pot-calculator/">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article">
+  <h1>13 Mistakes Every New Poker Dealer Makes (From 2,676 Real Corrections)</h1>
+  <p class="meta">Published November 7, 2026 &middot; True Poker Dealer</p>
+
+  <p class="lede">Most &ldquo;how to deal poker&rdquo; articles online are written by people who have never dealt a hand professionally. This one isn&rsquo;t. Every mistake below comes from a real, logged correction made during a live poker dealer training class &mdash; 2,676 of them, tracked across dozens of cohorts, by an instructor who deals and trains dealers for a living.</p>
+
+  <p>The point isn&rsquo;t to embarrass anyone. It&rsquo;s that the same handful of habits trip up almost every new dealer, which means they&rsquo;re predictable &mdash; and fixable &mdash; if you know what to watch for before you&rsquo;re standing at a table with real money and real players watching.</p>
+
+  <p>Here are the 13 corrections that come up most often, in order of how frequently they happen in training.</p>
+
+  <h2>1. Crossing your arms while dealing</h2>
+  <p>The single most common correction. New dealers cross an arm in front of their body while revealing cards or pitching, which blocks the camera&rsquo;s view of the table &mdash; a real problem in any room with surveillance. The fix is purely physical: keep your body square to the table and let your arms move in straight lines to and from the deck, never across your own line of sight to the felt.</p>
+
+  <h2>2. Not verbalizing the pot correctly</h2>
+  <p>Pot math isn&rsquo;t just arithmetic &mdash; it&rsquo;s arithmetic you say out loud, correctly, including money that&rsquo;s still sitting in front of players and hasn&rsquo;t been pushed in yet. The most common version of this mistake is leaving that &ldquo;still in front of the player&rdquo; money out of the count entirely, which means the dealer and the table end up disagreeing about how much is actually in play. Count everything on the table, not just what&rsquo;s already in the pot.</p>
+
+  <h2>3. Pot math errors under pressure</h2>
+  <p>Related to #2, but this is the straightforward kind: miscounting or mis-multiplying when the stakes or stack sizes get a little more complex (three-way side pots, awkward bet sizes). The habit that fixes this isn&rsquo;t &ldquo;do math faster&rdquo; &mdash; it&rsquo;s doing the same verification step every single time: recount before you push, every hand, no exceptions, even when you&rsquo;re sure you&rsquo;re right.</p>
+
+  <h2>4. Building side pots in the wrong spot</h2>
+  <p>Side pots have a correct physical location on the table &mdash; generally near the short-stacked (all-in) player, not stacked up directly in front of the dealer or scattered across the layout. Get this wrong and you create confusion about which pot belongs to which player right when it matters most: at showdown with multiple players all-in for different amounts. (Want to see the math worked out? Try the <a href="/tools/side-pot-calculator/">side pot calculator</a>.)</p>
+
+  <h2>5. Cutting chips incorrectly (or not at all)</h2>
+  <p>&ldquo;Cutting&rdquo; chips &mdash; breaking a stack down into a clean, verifiable unit before moving it &mdash; is a habit, not a one-time skill. The most common version of this mistake is a dealer rushing a bet without cutting it first, or dropping chips one at a time instead of picking up a clean group in a single motion. Practice reps build this; rushing during practice just means you&rsquo;ll rush at the table too.</p>
+
+  <h2>6. Covering the deck</h2>
+  <p>Letting a hand rest on top of the deck &mdash; even briefly, even when something unexpected happens at the table &mdash; is a habit surveillance and floor staff are trained to notice immediately. The deck should be visible at all times. This one shows up even with dealers who are otherwise solid, usually in the exact moment something distracting happens at the table &mdash; which is precisely when the habit matters most.</p>
+
+  <h2>7. Miscalculating a minimum raise</h2>
+  <p>The rule is simple once it&rsquo;s internalized: a minimum raise must be at least as large as the previous raise increment, not the previous total bet. Dealers new to this almost always want to use the total bet amount instead of the increment, which gets the math wrong in exactly the situations (multiple raises in a row) where players are most likely to challenge the dealer&rsquo;s call.</p>
+
+  <h2>8. Not freezing completely once the floor is called</h2>
+  <p>When a floor supervisor is called to a table, the correct dealer response is to stop entirely &mdash; no more chip movement, no more responding to players &mdash; until the floor gives explicit instructions. New dealers instinctively want to keep managing the table while they wait, which undermines the floor&rsquo;s authority and can make a disputed ruling worse, not better.</p>
+
+  <h2>9. Washing too slowly</h2>
+  <p>Shuffling and pitching are mechanics you build up to full speed gradually. The wash is the opposite &mdash; it should be fast from day one, because there&rsquo;s no part of the game where players are reasonably expected to wait on it. New dealers often protect wash speed the way they protect other new mechanics, which is actually the wrong instinct for this specific step.</p>
+
+  <h2>10. Handling chips with a full grab instead of fingertips</h2>
+  <p>Chips get handled with fingertips, not grabbed with the whole hand or passed palm-to-palm between hands. This looks like a minor style point until you watch it next to a dealer who&rsquo;s been doing it correctly &mdash; it&rsquo;s immediately, visibly different, and it&rsquo;s one of the fastest &ldquo;tells&rdquo; that separates a trained dealer from an untrained one.</p>
+
+  <h2>11. Treating a skipped card as something other than a misdeal</h2>
+  <p>Skipping a player while dealing &mdash; even by accident, even on the very first card of the hand &mdash; is a misdeal. The correct response is to restart the deal from scratch. New dealers&rsquo; instinct is almost always to try to patch it (deal the skipped player an extra card to &ldquo;catch up&rdquo;), which is the wrong fix and creates a bigger problem than the original mistake.</p>
+
+  <h2>12. Handling action out of turn passively</h2>
+  <p>When a player acts out of turn, the fix isn&rsquo;t a conversation &mdash; it&rsquo;s a physical stop. Point to where the action actually is, reset the table, and move on without over-explaining or negotiating with the player who acted early. Dealers who are still building confidence tend to handle this too gently, which invites the same player to test it again.</p>
+
+  <h2>13. Misjudging the oversized-chip rule</h2>
+  <p>If a player puts out a single chip larger than the amount they want to bet, with no verbal declaration, the rule is specific: it counts as a call only if no single chip removed from the amount would still cover the call &mdash; otherwise it&rsquo;s an automatic call, not the raise the player may claim they intended. This is one of the rules new dealers most often get backwards under pressure, because the player&rsquo;s own confident tone can make the wrong ruling feel right in the moment.</p>
+
+  <h2>Why this list is different</h2>
+  <p>Every item above is something a real instructor corrected, in real time, in a real training class &mdash; not a rule copied from a rulebook summary. That&rsquo;s the difference between reading about dealing and training to deal: a rulebook tells you what&rsquo;s correct, but it won&rsquo;t tell you which mistakes you&rsquo;re actually likely to make, or catch you making them, before it costs you at a real table.</p>
+
+  <div class="cta">
+    <h3>Build these habits properly</h3>
+    <p>Train with a real instructor watching and correcting you the same way &mdash; instead of finding out what you don&rsquo;t know on the job.</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+</main>
+
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
