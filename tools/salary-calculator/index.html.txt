@@ -1,0 +1,141 @@
+pe html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poker Dealer Salary Calculator | True Poker Dealer</title>
+<meta name="description" content="Estimate potential poker dealer earnings by venue type and hours worked, based on publicly reported dealer pay and tip ranges.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/tools/salary-calculator/">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/common-poker-dealer-mistakes/">Guide</a>
+    </nav>
+  </div>
+</header>
+<main class="article">
+  <h1>Poker Dealer Salary Calculator</h1>
+  <p class="lede">How much a poker dealer makes depends heavily on venue type, tip pooling policy, and hours &mdash; more than almost any other factor. Use this to get a realistic planning range.</p>
+
+<!-- Poker Dealer Salary Calculator — standalone embeddable widget, no backend, no dependencies.
+     Figures are ballpark industry estimates (Las Vegas Advisor reader reports, Glassdoor/BLS-style
+     aggregates), NOT a guarantee — the copy says so explicitly. Re-theme via the CSS variables below. -->
+<section class="tpd-tool" id="salary-calculator" aria-label="Poker Dealer Salary Calculator">
+  <style>
+    #salary-calculator {
+      --sc-bg: #0f1a14; --sc-panel: #16261d; --sc-border: #2a3d30;
+      --sc-text: #eaf2ec; --sc-muted: #9fb3a6; --sc-accent: #4fae6e; --sc-accent-ink: #06160c;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--sc-bg); color: var(--sc-text);
+      border: 1px solid var(--sc-border); border-radius: 14px; padding: 1.5rem;
+      max-width: 560px; box-sizing: border-box;
+    }
+    #salary-calculator * { box-sizing: border-box; }
+    #salary-calculator h3 { margin: 0 0 .25rem; font-size: 1.25rem; }
+    #salary-calculator p.sc-sub { margin: 0 0 1.1rem; color: var(--sc-muted); font-size: .92rem; }
+    #salary-calculator label { display: block; font-size: .85rem; color: var(--sc-muted); margin: 0 0 .3rem; }
+    #salary-calculator .sc-field { margin-bottom: 1rem; }
+    #salary-calculator select, #salary-calculator input[type="number"] {
+      width: 100%; background: var(--sc-panel); border: 1px solid var(--sc-border);
+      color: var(--sc-text); border-radius: 8px; padding: .55rem .6rem; font-size: .95rem;
+    }
+    #salary-calculator input[type="range"] { width: 100%; accent-color: var(--sc-accent); }
+    #salary-calculator .sc-hours-value { color: var(--sc-accent); font-weight: 700; }
+    #salary-calculator button {
+      font-size: .9rem; font-weight: 700; border-radius: 8px; border: 1px solid var(--sc-accent);
+      padding: .6rem 1rem; cursor: pointer; background: var(--sc-accent); color: var(--sc-accent-ink);
+    }
+    #salary-calculator .sc-result {
+      border-top: 1px solid var(--sc-border); margin-top: 1.1rem; padding-top: 1rem;
+    }
+    #salary-calculator .sc-range { font-size: 1.6rem; font-weight: 800; color: var(--sc-accent); }
+    #salary-calculator .sc-breakdown { color: var(--sc-muted); font-size: .88rem; margin-top: .3rem; }
+    #salary-calculator .sc-note { color: var(--sc-muted); font-size: .78rem; margin-top: .9rem; line-height: 1.4; }
+  </style>
+
+  <h3>Poker Dealer Salary Calculator</h3>
+  <p class="sc-sub">Ballpark your potential earnings by venue type and hours worked. These are estimates built from publicly reported dealer pay and tip ranges — actual pay varies by room, tip-pooling policy, and how good you are at the job.</p>
+
+  <div class="sc-field">
+    <label for="sc-venue">Venue type</label>
+    <select id="sc-venue">
+      <option value="homegame">Private / home games (cash per session)</option>
+      <option value="local" selected>Local or regional card room / off-Strip casino</option>
+      <option value="strip">Major market casino (e.g. Las Vegas Strip)</option>
+      <option value="tribal">High-volume tribal or destination casino</option>
+    </select>
+  </div>
+
+  <div class="sc-field">
+    <label for="sc-hours">Hours per week: <span class="sc-hours-value" id="sc-hours-out">35</span></label>
+    <input type="range" id="sc-hours" min="5" max="60" step="1" value="35">
+  </div>
+
+  <button type="button" id="sc-calc">Estimate my pay</button>
+
+  <div class="sc-result" id="sc-result"></div>
+
+  <p class="sc-note">Based on publicly reported ranges (Las Vegas Advisor reader data, industry salary aggregates): roughly $35k-45k/yr total (base + tips) at a typical local/off-Strip room, $70k-90k/yr at a strong Strip-tier room, and up to $100k-120k/yr at some high-volume tribal rooms — all at full-time hours. This tool scales those full-time figures by your hours and venue choice. It's a planning estimate, not a quote, and tip income especially varies room to room.</p>
+
+  <script>
+  (function () {
+    var root = document.getElementById('salary-calculator');
+    var venueEl = root.querySelector('#sc-venue');
+    var hoursEl = root.querySelector('#sc-hours');
+    var hoursOut = root.querySelector('#sc-hours-out');
+    var resultEl = root.querySelector('#sc-result');
+
+    // Full-time (40 hr/wk) annual total-income bands, [low, high], base+tips combined.
+    var BANDS = {
+      homegame:  { low: 8000,  high: 20000, base: 'Varies entirely by session volume and the game — this is rough cash-game-night income, not a wage.' },
+      local:     { low: 35000, high: 45000, base: 'Typical base pay of roughly $20k-30k, with tips bringing the total into this range.' },
+      strip:     { low: 70000, high: 90000, base: 'Stronger volume and bigger average pots mean significantly higher tip income than a local room.' },
+      tribal:    { low: 100000, high: 120000, base: 'Some high-volume tribal rooms report the strongest total income of any venue type, driven by tip volume.' }
+    };
+
+    function formatUSD(n) {
+      return '$' + Math.round(n).toLocaleString();
+    }
+
+    function calculate() {
+      var venue = venueEl.value;
+      var hours = parseFloat(hoursEl.value) || 0;
+      var band = BANDS[venue];
+      var scale = hours / 40;
+
+      var low = band.low * scale;
+      var high = band.high * scale;
+
+      resultEl.innerHTML =
+        '<div class="sc-range">' + formatUSD(low) + ' – ' + formatUSD(high) + ' / year</div>' +
+        '<div class="sc-breakdown">At ~' + hours + ' hrs/week. ' + band.base + '</div>';
+    }
+
+    hoursEl.addEventListener('input', function () {
+      hoursOut.textContent = hoursEl.value;
+    });
+    root.querySelector('#sc-calc').addEventListener('click', calculate);
+    venueEl.addEventListener('change', calculate);
+
+    calculate();
+  })();
+  </script>
+</section>
+
+  <h2>Why the range is so wide</h2>
+  <p>Base pay for poker dealers is usually modest &mdash; most of the real income comes from tips, and tip volume depends on the venue's traffic, average stakes, and how tips are pooled and distributed. A dealer at a quiet local card room and a dealer at a high-volume room can have very different take-home pay for the same skill level, which is why venue choice matters as much as experience once you're qualified to work.</p>
+
+  <div class="cta">
+    <h3>The dealers who earn the most have real skills</h3>
+    <p>Learn the procedures and habits that get you hired at better rooms &mdash; and keep you there.</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+</main>
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
