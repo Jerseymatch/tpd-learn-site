@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn to Deal Poker | True Poker Dealer</title>
+<meta name="description" content="Real training from a working poker room dealer: how to become a poker dealer, dealer salary and tips, procedures, common mistakes, and free tools for aspiring dealers.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "True Poker Dealer",
+  "url": "https://truepokerdealer.com",
+  "sameAs": ["https://learn.truepokerdealer.com"]
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/tools/side-pot-calculator/">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Learn to deal poker, from someone who actually deals for a living</h1>
+  <p class="lede">Real procedures, real corrections from real training classes, and free tools &mdash; built by the team behind Remote Dealer School and the Complete Course.</p>
+
+  <div class="card-grid">
+    <a class="card" href="/common-poker-dealer-mistakes/">
+      <span class="tag">Guide</span>
+      <h3>13 Mistakes Every New Poker Dealer Makes</h3>
+      <p>Built from 2,676 real, logged corrections across live training classes &mdash; not a generic rulebook summary.</p>
+    </a>
+    <a class="card" href="/tools/side-pot-calculator/">
+      <span class="tag">Tool</span>
+      <h3>Side Pot Calculator</h3>
+      <p>Enter stacks and bets, see exactly how the main pot and side pots split.</p>
+    </a>
+    <a class="card" href="/tools/salary-calculator/">
+      <span class="tag">Tool</span>
+      <h3>Poker Dealer Salary Calculator</h3>
+      <p>Ballpark your potential earnings by venue type and hours worked.</p>
+    </a>
+  </div>
+
+  <div class="cta">
+    <h3>Want to deal professionally?</h3>
+    <p>Learn from a real working dealer, with real correction footage from real students &mdash; from home, at your pace.</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+</main>
+
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
