@@ -1,0 +1,76 @@
+:root {
+    --bg: #0a120d;
+    --panel: #101c15;
+    --panel-2: #16261d;
+    --border: #233327;
+    --text: #eaf2ec;
+    --muted: #9fb3a6;
+    --accent: #4fae6e;
+    --accent-ink: #06160c;
+    color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+a { color: var(--accent); }
+
+.wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+header.site {
+    border-bottom: 1px solid var(--border);
+    padding: 1.1rem 0;
+}
+header.site .wrap { display: flex; align-items: center; justify-content: space-between; max-width: 920px; }
+header.site a.brand { color: var(--text); font-weight: 800; font-size: 1.05rem; text-decoration: none; letter-spacing: -0.01em; }
+header.site nav a { color: var(--muted); text-decoration: none; font-size: .92rem; margin-left: 1.25rem; }
+header.site nav a:hover { color: var(--text); }
+
+main { max-width: 920px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+main.article { max-width: 720px; }
+
+h1 { font-size: 2rem; line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 .6rem; }
+h2 { font-size: 1.4rem; margin: 2.1rem 0 .6rem; letter-spacing: -0.005em; }
+h3 { font-size: 1.1rem; margin: 1.6rem 0 .4rem; }
+p { margin: 0 0 1rem; color: var(--text); }
+p.lede { color: var(--muted); font-size: 1.08rem; }
+
+.meta { color: var(--muted); font-size: .85rem; margin-bottom: 1.75rem; }
+
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    padding: 1.25rem; text-decoration: none; color: var(--text); display: block;
+}
+.card:hover { border-color: var(--accent); }
+.card .tag { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); margin-bottom: .4rem; font-weight: 700; }
+.card h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+.card p { color: var(--muted); font-size: .9rem; margin: 0; }
+
+.cta {
+    background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px;
+    padding: 1.5rem; margin: 2.25rem 0; text-align: center;
+}
+.cta h3 { margin-top: 0; }
+.btn {
+    display: inline-block; background: var(--accent); color: var(--accent-ink); font-weight: 700;
+    text-decoration: none; padding: .7rem 1.3rem; border-radius: 9px; margin-top: .5rem;
+}
+
+footer.site { border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; padding: 2rem 0; margin-top: 3rem; }
+footer.site .wrap { max-width: 920px; }
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.6rem; }
+    main { padding-top: 1.75rem; }
+}
