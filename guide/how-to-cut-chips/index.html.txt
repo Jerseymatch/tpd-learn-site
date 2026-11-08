@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Cut Poker Chips Like a Casino Dealer | True Poker Dealer</title>
+<meta name="description" content="How to cut poker chips professionally &mdash; full stack conventions, the bump-and-prove technique, and the exact moment of contact that separates clean chip cutting from sloppy chip cutting.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/guide/how-to-cut-chips/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Cut Poker Chips Like a Casino Dealer",
+  "description": "Full stack conventions and the bump-and-prove technique for cutting poker chips cleanly and verifiably.",
+  "step": [
+    { "@type": "HowToStep", "name": "Pick up all but the target count", "text": "Lift the stack, leaving the correct number of chips (5 or 4, depending on denomination) behind." },
+    { "@type": "HowToStep", "name": "Bump", "text": "Push the lifted chips up against the remaining stack at the exact moment of contact to cut cleanly." },
+    { "@type": "HowToStep", "name": "Prove", "text": "Pull the cut stack up and align it to confirm both stacks match in height." },
+    { "@type": "HowToStep", "name": "Repeat and splash", "text": "Repeat the bump-and-prove down the full stack, then splash the chips into position." }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/guide/">Full guide</a>
+      <a href="/tools/side-pot-calculator/">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article">
+  <p class="module-crumb"><a href="/guide/">The Complete Guide</a> &rsaquo; Module 1: Shuffling, Pitching &amp; Chip Mechanics</p>
+  <h1>How to Cut Poker Chips Like a Casino Dealer</h1>
+  <p class="meta">True Poker Dealer &middot; Module 1, Lesson 3</p>
+
+  <p class="lede">&ldquo;Cutting&rdquo; chips means breaking a full stack of 20 down into small, countable, verifiable groups &mdash; and it&rsquo;s done for surveillance, for the dealer, and for the players, so that everyone at and above the table can see exactly how many chips are moving in any transaction. Get the convention right and it becomes instantly readable at a glance. Get it wrong and nobody, including you, can verify a bet at a glance anymore.</p>
+
+  <h2>The industry-standard full-stack conventions</h2>
+  <p>A full stack is 20 chips of one denomination. How you break that stack down depends on the denomination: $1, $2, $5, and $100 chips are cut in groups of <strong>five</strong> &mdash; four groups of five per full stack. 50&cent;, $25, and $500 chips are cut in groups of <strong>four</strong> &mdash; five groups of four per full stack. This isn&rsquo;t arbitrary: a $5 stack cut in fives gives you clean $25 groups (5 &times; $5); a $25 stack cut in fours gives you clean $100 groups (4 &times; $25). The convention exists specifically to make counting fast and obvious for anyone glancing at the table.</p>
+
+  <h2>Bump and prove</h2>
+  <p>Grip the stack with your thumb and pinky down on the felt on either side, middle finger on the far side, and lift all of the chips except the target count (five, or four) off the top. Set that lifted group down just behind the remaining chips &mdash; while you&rsquo;re learning, leave a little gap; later, you&rsquo;ll drop it close. Push the lifted group forward into the original stack (the &ldquo;bump&rdquo;), then sweep your index finger flat across to align the top of both stacks at the same height (the &ldquo;prove&rdquo;). Pull the cut group up and away, and repeat: bump, prove, drop, bump, prove, drop, all the way down the stack.</p>
+  <p><strong>The detail almost everyone misses at first:</strong> the cut itself has to happen at the exact moment of contact between the lifted chips and the stack below &mdash; not a beat before, not a beat after. Cutting consistently at that exact moment of contact is what keeps every resulting stack the same height, especially with chips that are a little sticky from heavy play. It doesn&rsquo;t need to be an exaggerated motion once you&rsquo;re fast &mdash; at full speed it can look like barely any bump at all, but the timing is still there.</p>
+  <p>Prove the very last group too, even though there&rsquo;s nothing left to pull up afterward &mdash; the final prove is what confirms every group you just cut actually matches, rather than silently drifting off by one chip by the time you reach the bottom.</p>
+
+  <h2>Index finger, not thumb</h2>
+  <p>You can cut chips with your thumb and get the job done, but cutting with your index finger gives you a higher ceiling for speed and a wider range of motion &mdash; cutting toward your arm gives you an arc of possible directions, where a thumb cut restricts you to roughly perpendicular to your arm. Learn with your index finger first; the same bump-and-prove principles carry over if you ever need the thumb method in a pinch. And learn to cut with both hands &mdash; a professional dealer needs to be able to cut chips with either hand, and there are plenty of real situations at a table where that matters.</p>
+
+  <h2>Splashing the stack</h2>
+  <p>Once a group is cut down to its target count, take it between your thumb and middle finger at a slight angle and push it off the felt rather than spinning it or dropping it &mdash; both of those are harder to control, especially with sticky chips, and can send a chip flying. The chips settle themselves into a clean splash shape. Clear your hands afterward, every time, so surveillance and the table can see exactly what&rsquo;s there.</p>
+
+  <div class="corrected">
+    <div class="corrected-label">Commonly corrected in training</div>
+    <ul>
+      <li><strong>Cutting after the bump, not at the moment of contact.</strong> By far the most common fix: students learn the finger positions and the bump motion, but cut a beat late instead of at the exact instant the lifted chips touch the stack below &mdash; which is what actually keeps every group the same height.</li>
+      <li><strong>Pinky and thumb floating instead of staying down.</strong> It&rsquo;s a common tendency to let the pinky and thumb lift slightly while cutting instead of staying planted on the felt in control of the chips &mdash; which is exactly what causes a stack to come apart mid-cut.</li>
+      <li><strong>Drop-cutting (borrowed from craps).</strong> Dropping chips one at a time instead of picking up a clean group in one motion is a craps-table habit, not a poker one &mdash; it&rsquo;s unnecessary and it&rsquo;s slower.</li>
+      <li><strong>Fixing the count after lifting, not before.</strong> If you pick up the wrong number of chips, the correct fix is simple: drop one back down, or pick one more up, and keep going &mdash; no need to start over or treat it as a bigger mistake than it is.</li>
+      <li><strong>Direction of the cut.</strong> Chips should move in a line from your index finger toward your elbow for speed and control, not across your body at an awkward angle.</li>
+      <li><strong>Visibility of large denominations.</strong> As a general rule, your largest-denomination chips should sit out front or on top of a stack where they&rsquo;re visible &mdash; not buried where a player (or the floor) has to ask what&rsquo;s actually there.</li>
+      <li><strong>Clean increments only.</strong> A stack of smaller-denomination chips should never sit at an amount that isn&rsquo;t a clean increment of your cutting convention &mdash; an odd, uneven stack is both hard to read and a sign of a rushed cut.</li>
+    </ul>
+  </div>
+
+  <div class="gear">
+    <span class="gear-label">Gear for practicing this at home</span>
+    <ul>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=clay+poker+chip+set&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">Clay poker chips</a> &mdash; clay (or clay-composite) chips stack, cut, and splash the way casino chips actually behave; cheap plastic chips teach the wrong feel entirely.</li>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=poker+chip+tray+rack&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">A chip tray or rack</a> &mdash; for practicing the hand-to-tray transfer covered in the next lesson, alongside cutting.</li>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=poker+table+felt+layout&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">A felt layout</a> &mdash; chips cut and splash differently on felt than on a hard table; train on the surface you&rsquo;ll actually work on.</li>
+    </ul>
+    <p class="gear-note">As an Amazon Associate, True Poker Dealer earns from qualifying purchases.</p>
+  </div>
+
+  <div class="cta">
+    <h3>Chip cutting is a habit, not a one-time skill</h3>
+    <p>Reps build it &mdash; but reps with nobody correcting your timing just build the wrong habit faster. Train with a real instructor watching.</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+
+  <nav class="lesson-pager">
+    <a href="/guide/the-poker-pitch/"><span class="dir">&larr; Previous lesson</span><span class="label">The Poker Pitch</span></a>
+    <a class="next" href="/guide/how-to-handle-chips/"><span class="dir">Next lesson &rarr;</span><span class="label">How to Handle Chips</span></a>
+  </nav>
+</main>
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
