@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Shuffle Cards Like a Casino Dealer | True Poker Dealer</title>
+<meta name="description" content="Learn the wash, riffle, box, and cut &mdash; the full professional casino shuffle for poker, step by step, from a real dealer trainer. Includes the mistakes that trip up almost every new dealer.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/guide/how-to-shuffle-cards/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Shuffle Cards Like a Casino Dealer",
+  "description": "The full professional casino poker shuffle: wash, riffle, box, and cut, taught step by step.",
+  "step": [
+    { "@type": "HowToStep", "name": "Wash", "text": "Scatter the cards face down and mix them so every face touches the felt at least once." },
+    { "@type": "HowToStep", "name": "Collect and square", "text": "Scoop the cards together, drop a flat edge, and spin the deck square with one hand." },
+    { "@type": "HowToStep", "name": "Riffle", "text": "Split the deck in half and interlace the two halves by letting the cards fall together at the corners." },
+    { "@type": "HowToStep", "name": "Box", "text": "Reassemble the riffled deck into a single stack without exposing any card." },
+    { "@type": "HowToStep", "name": "Cut", "text": "Use a cut card to split the deck, placing roughly a third on top of the cut card and the rest back on top." }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/guide/">Full guide</a>
+      <a href="/tools/side-pot-calculator/">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article">
+  <p class="module-crumb"><a href="/guide/">The Complete Guide</a> &rsaquo; Module 1: Shuffling, Pitching &amp; Chip Mechanics</p>
+  <h1>How to Shuffle Cards Like a Casino Dealer</h1>
+  <p class="meta">True Poker Dealer &middot; Module 1, Lesson 1</p>
+
+  <p class="lede">The professional casino poker shuffle is five moves in a fixed order: wash, collect and square, riffle, box, and cut. Learn them in that order, learn them correctly the first time, and they&rsquo;ll hold up at full speed at a real table. Learn them sloppy, and you&rsquo;ll be unlearning bad habits for years &mdash; it is genuinely harder to fix a bad shuffle than to learn a good one from scratch.</p>
+
+  <h2>Step 1: The wash</h2>
+  <p>Scatter the cards face down across the felt and mix them so that every card face touches the felt at least once. A full wash should take about seven seconds; a quick &ldquo;mini wash&rdquo; between hands (when the deck isn&rsquo;t suited and doesn&rsquo;t need a full mix) takes two to three. Push your hands in a full circle through the cards rather than a half circle &mdash; a half circle leaves cards under-mixed on one side of the spread, which defeats the point of washing in the first place.</p>
+  <p>Once you&rsquo;ve mixed the cards, scoop them together into a loose pile tight enough to pick up, take one card off the top and tuck it under the bottom (this works even with more than one deck in play), then turn the whole pile away from you &mdash; &ldquo;poker away&rdquo; &mdash; so you can&rsquo;t see any faces and can&rsquo;t be accused of manipulating the deck. Protect the pile as you drop it to the felt to get a flat edge, then square it: find a horizontal run of cards on one side, cup it with one hand, and use your other thumb to spin the deck into a clean, squared block.</p>
+
+  <h2>Step 2: The riffle</h2>
+  <p>The riffle is the hardest part of the shuffle to learn and the part that feels the least natural in your fingers at first &mdash; that&rsquo;s normal, and it&rsquo;s not a sign you&rsquo;re doing it wrong. Mirror both hands: middle and ring fingers toward the top edge of the deck, thumb opposite on the near side, pinky toward the outside corner. Split the squared deck roughly in half, push your forefingers together so the two halves angle slightly toward each other, then slide your thumbs up to the corners and get them underneath the cards &mdash; this is the uncomfortable grip that takes practice.</p>
+  <p>Flatten your fingers on top of the cards, keep your thumbs underneath, and let the cards fall into each other quietly. Riffling loudly doesn&rsquo;t just sound unprofessional &mdash; it damages the cards over time. The less downward pressure you put on the deck halves as you push them together, the easier it is for your pinkies to interlace them cleanly. You&rsquo;ll hear this called &ldquo;lacing&rdquo; &mdash; good lacing means the cards from each half fall together one at a time rather than in clumps, and it&rsquo;s worth slowing down to get right before you speed up.</p>
+
+  <h2>Step 3: The box</h2>
+  <p>&ldquo;Boxing&rdquo; means reassembling the riffled deck back into one block without flashing any card in the process. There are two common grips: in one, you keep your riffle grip with one hand and use your other hand&rsquo;s thumb and middle finger, wrist flat on the table, to lift packets off the top and set them down flat on the felt, repeating until the whole deck is restacked. In the other, that same hand places the first packet directly on the table and then stacks each following packet on top of it. Either way, keep the cards parallel to the table at all times &mdash; tilting them to see what you&rsquo;re doing defeats the entire purpose of shuffling.</p>
+
+  <h2>Putting it together: riffle, riffle, box, riffle</h2>
+  <p>The full professional sequence is wash, collect, square, then <strong>riffle, riffle, box, riffle</strong> &mdash; three riffles with one box in the middle, never fewer. Skipping the final riffle is one of the most common shortcuts new dealers take without realizing it, and it&rsquo;s an easy habit to drift into once you&rsquo;re comfortable with the earlier steps.</p>
+
+  <h2>Step 4: The cut</h2>
+  <p>Clear your hands, then place your cut card &mdash; dull side up, never the shiny side, which can reflect a card &mdash; directly in front of the squared deck. Take roughly a third of the deck off the top (or leave a third on the bottom) and set it on top of the cut card, then place the remaining two-thirds back on top of that. Cutting the deck this way makes it much harder for anyone to track a specific card through the whole shuffle. Once the deck is cut, finish the motion and pitch the cards out as soon as possible &mdash; the moment right before the cut, not after it, is your window to collect antes or handle buy-ins. Once you&rsquo;ve cut the deck, keep moving.</p>
+  <p>Picking the deck up into your dealing hand, square the top edge by brushing your thumb and forefinger together (or, if it&rsquo;s stubborn, the front knuckle of a finger) &mdash; never by covering the top of the deck with your other hand, which blocks the one thing surveillance and the floor are always watching for.</p>
+
+  <div class="corrected">
+    <div class="corrected-label">Commonly corrected in training</div>
+    <ul>
+      <li><strong>Pinky position.</strong> Not keeping your pinkies flat and pressed against the sides of the deck during the shuffle grip is the single most common correction on this topic &mdash; floating pinkies make the whole grip less stable and slower to speed up later.</li>
+      <li><strong>Wash speed, backwards.</strong> Shuffle and pitch mechanics are meant to be learned slow and sped up gradually. The wash is the opposite: it should be trained fast from day one, because there&rsquo;s no moment in a real game where players expect to wait on it.</li>
+      <li><strong>Half-circle washing.</strong> A full wash needs a full circular motion through the cards, not a half circle &mdash; a half circle leaves one side of the spread barely mixed.</li>
+      <li><strong>Skipping the last riffle.</strong> The sequence is riffle, riffle, box, riffle &mdash; cut. Dropping the final riffle after the box is an easy habit to slip into once the earlier steps feel comfortable.</li>
+      <li><strong>Pausing after the cut.</strong> Once the deck is cut, the very next action is pitching the cards out &mdash; not a pause, not a breath. Hesitating here is one of the fastest &ldquo;tells&rdquo; of an unconfident dealer.</li>
+      <li><strong>Restarting after a bad cut.</strong> If you half-cut the deck and stop partway through, the correct fix is to restart the full shuffle sequence, not continue from where you stopped.</li>
+      <li><strong>Covering the deck.</strong> Resting a hand on top of the deck after squaring or cutting it &mdash; even briefly, even just to steady it &mdash; blocks surveillance&rsquo;s view and is one of the most common habits instructors have to repeat themselves on, because it&rsquo;s almost always unconscious.</li>
+    </ul>
+  </div>
+
+  <div class="gear">
+    <span class="gear-label">Gear for practicing this at home</span>
+    <ul>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=casino+quality+plastic+playing+cards&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">Casino-grade plastic playing cards</a> &mdash; paper cards won&rsquo;t hold up to a real riffle and wash; dealers train on the same plastic stock used in real poker rooms.</li>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=poker+cut+card&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">Poker cut cards</a> &mdash; dull-finish cut cards sized to match a standard deck.</li>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=poker+table+felt+layout&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">A felt layout or tabletop mat</a> &mdash; the wash and riffle both depend on a felt surface; practicing on a hard table teaches the wrong friction and feel.</li>
+    </ul>
+    <p class="gear-note">As an Amazon Associate, True Poker Dealer earns from qualifying purchases.</p>
+  </div>
+
+  <div class="cta">
+    <h3>Watching it is one thing. Getting corrected on it is another.</h3>
+    <p>Remote Dealer School and the Complete Course put a real instructor on your shuffle until every one of these habits is automatic &mdash; not just &ldquo;close enough.&rdquo;</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+
+  <nav class="lesson-pager">
+    <a href="/guide/"><span class="dir">&larr; Back to</span><span class="label">The Complete Guide</span></a>
+    <a class="next" href="/guide/the-poker-pitch/"><span class="dir">Next lesson &rarr;</span><span class="label">The Poker Pitch</span></a>
+  </nav>
+</main>
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
