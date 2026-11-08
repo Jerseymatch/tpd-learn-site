@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Handle Poker Chips Like a Casino Dealer | True Poker Dealer</title>
+<meta name="description" content="Fingertips, not palms: how a professional poker dealer handles chips on the table, moves a pot to a player, and avoids every habit that reads as theft to surveillance.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/guide/how-to-handle-chips/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Handle Poker Chips Like a Casino Dealer",
+  "description": "How a professional poker dealer holds, moves, and hands off chips without ever letting them rest in the palm.",
+  "step": [
+    { "@type": "HowToStep", "name": "Hold chips in your fingertips", "text": "Never let a chip or stack rest in your palm; keep full control with fingertips only." },
+    { "@type": "HowToStep", "name": "Never go hand to hand", "text": "Drop chips on the felt and clear your hand before picking them up with the other hand." },
+    { "@type": "HowToStep", "name": "Push the pot, don't carry it", "text": "Surround chips with both hands and push them across the felt to the winning player." }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">True Poker Dealer &mdash; Learn</a>
+    <nav>
+      <a href="https://truepokerdealer.com">Main site</a>
+      <a href="/guide/">Full guide</a>
+      <a href="/tools/side-pot-calculator/">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article">
+  <p class="module-crumb"><a href="/guide/">The Complete Guide</a> &rsaquo; Module 1: Shuffling, Pitching &amp; Chip Mechanics</p>
+  <h1>How to Handle Poker Chips Like a Casino Dealer</h1>
+  <p class="meta">True Poker Dealer &middot; Module 1, Lesson 4</p>
+
+  <p class="lede">Every rule in this lesson comes back to one idea: chips live in your fingertips, never in your palm. Surveillance cameras exist specifically to protect the casino, the players, and the dealers themselves, and a chip resting in an open palm &mdash; even for a second, even with no intent at all &mdash; is exactly the kind of moment that looks like an opportunity for theft. Once you build fingertip-only handling into muscle memory, every other rule in this lesson follows naturally from it.</p>
+
+  <h2>Clearing your hands</h2>
+  <p>&ldquo;Clearing your hands&rdquo; means turning your palms toward the ceiling and the backs of your hands toward where a camera would be, in a quick, visible motion, so there&rsquo;s nothing hidden in either hand. Do it after any moment where your hands could plausibly be holding something unaccounted for &mdash; after moving chips into a tray, after touching your face or shirt, after any hand-to-hand style transfer. It becomes reflexive quickly, and it should.</p>
+
+  <h2>Fingertips, never the palm</h2>
+  <p>Hold a single chip, or a full stack, with your thumb on one side and your forefinger, middle finger, and ring finger down on the felt on the other &mdash; full control, nothing resting in the middle of your hand. If you stand up and can still bend your arm without a chip shifting, you&rsquo;re holding it correctly. This applies to every chip interaction on the table, not just cutting: picking chips up, stacking them, splitting a pot &mdash; always fingertips.</p>
+
+  <h2>Never go hand to hand</h2>
+  <p>Passing a chip or a stack directly from one hand into the other &mdash; without setting it down first &mdash; is called going &ldquo;hand to hand,&rdquo; and it&rsquo;s avoided because it&rsquo;s a moment where chips briefly aren&rsquo;t visible to the table or the camera. Instead, drop the chip (or stack) onto the felt, clear your hand, and pick it up again with the other hand. It costs a fraction of a second more and becomes essentially invisible once you&rsquo;re used to it.</p>
+  <p>The same hidden hand-to-hand moment happens when dealers try to drop a stack straight into the chip tray &mdash; if your fingers are in the way and you end up tipping the stack out of your hand to get it in, that&rsquo;s the same problem in a different spot. Instead, put your thumb on top of the stack and your fore/middle fingers underneath, and roll the stack toward yourself (or away, though toward is preferred) until you have a grip that drops cleanly into the tray without needing to shake it loose.</p>
+
+  <h2>Moving a pot to a player</h2>
+  <p>When a pot needs to go to one player, don&rsquo;t pick the chips up and set them back down to shove them, and don&rsquo;t stack them into neat towers before handing them out if they&rsquo;re all going to one person. Instead, surround the pot with both hands and push the whole thing across the felt directly to the player, clearing your hands as you come away. If there are too many chips to move in one push, it&rsquo;s fine to push part of it, then go back for the rest &mdash; and it&rsquo;s fine to pull scattered chips together first (&ldquo;tightening the pot&rdquo;) before you start pushing.</p>
+  <p>When a pot needs to be split &mdash; say, two players chop an identical hand &mdash; the only way to know the split is accurate is to stack the chips up and count, picking each chip up individually in your fingertips rather than scooping with your palm.</p>
+
+  <h2>Non-value chips are the one exception</h2>
+  <p>In roulette, or with tournament chips that have no cash value, you&rsquo;ll sometimes see a dealer slide chips into their hand using thumb and forefinger in a way that would be flagged immediately at a cash poker table. That technique exists specifically because those chips can&rsquo;t be redeemed for real money &mdash; the moment chips have actual cash value, that shortcut is off the table (literally), and it&rsquo;s a common point of confusion for dealers who&rsquo;ve trained across multiple games.</p>
+
+  <h2>Never play with gaming equipment</h2>
+  <p>Fidgeting with the dealer button, spacers, or chips while waiting on a player to act &mdash; even absentmindedly &mdash; reads as unprofessional at best and as a red flag at worst. Players notice immediately, and it costs you their comfort at your table even when nothing is actually wrong. Keep your hands still and off the equipment when you&rsquo;re not actively using it.</p>
+
+  <h2>Handing off a finished stack</h2>
+  <p>When a stack of chips is done being cut and ready to go to a player, use your forefinger with the fingernail facing down, thumb on one side, middle finger on the other (ring finger too, if your hand is big enough). This grip gives you real control, reads as more professional to anyone watching, and projects the stack with more distance than simply picking it up and setting it down in front of the player.</p>
+
+  <div class="corrected">
+    <div class="corrected-label">Commonly corrected in training</div>
+    <ul>
+      <li><strong>Covering the deck is actually the most common habit on this list</strong> &mdash; even though it&rsquo;s a card-handling issue, not a chip one, it comes from the exact same impulse this lesson is built around: hands resting somewhere surveillance needs clear. Well over half of new dealers do it at some point, usually completely unconsciously, most often right after pitching the last card or squaring the deck.</li>
+      <li><strong>Collecting chips into the palm instead of fingertips.</strong> Scooping chips toward the pot with an open palm instead of dragging them in with fingertips is one of the most common &ldquo;it looks fine until you compare it to someone doing it right&rdquo; mistakes.</li>
+      <li><strong>Hand-to-hand chip passing.</strong> Passing chips directly from one hand to the other instead of setting them down and clearing hands in between &mdash; this correction tends to repeat across an entire class, not just one student.</li>
+      <li><strong>Grabbing or palming chips instead of sliding them in fingertips.</strong> Picking chips up in a closed hand, in a way that can visually resemble palming, instead of keeping them flat and visible in the fingertips at all times.</li>
+      <li><strong>Covering with two hands specifically.</strong> The no-covering-the-deck rule is sometimes misunderstood as being about any contact at all; the actual rule is specifically about covering with both hands at once, which fully blocks the view &mdash; understanding that distinction clears up a lot of confusion.</li>
+    </ul>
+  </div>
+
+  <div class="gear">
+    <span class="gear-label">Gear for practicing this at home</span>
+    <ul>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=clay+poker+chip+set&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">Clay poker chips</a> &mdash; fingertip control is much harder to build with lightweight plastic chips that don&rsquo;t have real weight or texture.</li>
+      <li><a class="gear-link" href="https://www.amazon.com/s?k=poker+chip+tray+rack&tag=truepokerdealer-20" rel="sponsored noopener" target="_blank">A chip tray</a> &mdash; practicing the roll-and-drop motion into a real tray builds the exact grip this lesson describes.</li>
+    </ul>
+    <p class="gear-note">As an Amazon Associate, True Poker Dealer earns from qualifying purchases.</p>
+  </div>
+
+  <div class="cta">
+    <h3>This is the fastest &ldquo;tell&rdquo; of an untrained dealer</h3>
+    <p>Fingertip chip handling is one of the first things an experienced floor supervisor notices &mdash; good or bad. Build it correctly with a real instructor watching.</p>
+    <a class="btn" href="https://truepokerdealer.com">See Remote Dealer School &amp; the Complete Course</a>
+  </div>
+
+  <nav class="lesson-pager">
+    <a href="/guide/how-to-cut-chips/"><span class="dir">&larr; Previous lesson</span><span class="label">How to Cut Chips</span></a>
+    <a class="next" href="/guide/"><span class="dir">Back to &rarr;</span><span class="label">The Complete Guide</span></a>
+  </nav>
+</main>
+<footer class="site"><div class="wrap">&copy; 2026 True Poker Dealer</div></footer>
+</body>
+</html>
