@@ -159,3 +159,12 @@ footer.site .fine a{display:inline}
 .checklist{list-style:none;padding:0;margin:1.2rem 0}
 .checklist li{padding-left:1.8rem;position:relative;margin:.5rem 0}
 .checklist li::before{content:"\2713";position:absolute;left:0;top:0;width:1.3rem;height:1.3rem;border-radius:50%;background:var(--felt);color:#fff;font:700 .75rem/1.3rem var(--sans);text-align:center}
+.calc{border:1px solid var(--line,#d9d3c3);border-radius:12px;padding:1rem;margin:1.25rem 0;background:#fbf8f0}
+.calc-row{display:flex;gap:.6rem;align-items:center;margin:.4rem 0;flex-wrap:wrap}
+.calc-row>label:first-child{min-width:3.5rem;font-weight:600}
+.calc-row input[type=number]{flex:1;min-width:8rem;padding:.5rem;border:1px solid #ccc;border-radius:8px;font-size:1rem}
+.calc-check{font-size:.9rem;display:flex;gap:.3rem;align-items:center}
+.calc-actions{display:flex;gap:.5rem;margin:.75rem 0}
+.btn-sm{padding:.45rem .9rem;font-size:.9rem;border:0;cursor:pointer}
+.calc-secondary{background:transparent;color:inherit;border:1px solid currentColor}
+.calc-list{margin:.5rem 0 0;padding-left:1.2rem}.calc-hint{color:#666;margin:.5rem 0 0}

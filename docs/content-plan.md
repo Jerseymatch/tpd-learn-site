@@ -9,8 +9,8 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | How to Pitch Cards | how-to-pitch-cards | live | RS2, TPD3-4, YT Uzny7tih8I8 / zHHLZwj-Dk8 |
 | How to Cut Chips | how-to-cut-chips | live | RS3, TPD5a/5b, YT 608YyjpczRw / A60NS_M800s |
 | How to Handle Chips | how-to-handle-chips | live | RS3, TPD6, YT hnNIKF450rU |
-| Working the Bank | working-the-poker-bank | planned | RS4, TPD7-9, YT G2EB7Ku-P3A (bank fill) |
-| Buy-Ins, Cheque Change & Color-Ups | buy-ins-and-color-ups | planned | RS5, TPD10-14 |
+| Working the Bank | working-the-poker-bank | live | RS4, TPD7-9, YT G2EB7Ku-P3A (bank fill) |
+| Buy-Ins, Cheque Change & Color-Ups | buy-ins-and-color-ups | live | RS5, TPD10-14 |
 | How to Bring the Flop, Turn & River | flop-turn-river | planned | RS7, TPD18, YT s2MQmZI3FO4, stub: YT hWr3Dtr2ryw |
 | How to Deal a Hand of Texas Hold'em | how-to-deal-texas-holdem | planned | RS8 |
 | Cards Speak & One Player Per Hand | cards-speak | planned | RS9 |
@@ -20,7 +20,7 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | Rake, Promo Drop & Tips | rake-and-tips | planned | RS13 |
 | The Technical Rules of Betting (min raise, all-in for less) | betting-rules | planned | RS14, Lesson 31 |
 | Misdeals | misdeals | planned | RS15 |
-| How to Build Side Pots (+ calculator) | side-pots | planned | Lesson 32, Week 3 classes, YT aqsD251OjOo / Rd1-W4X_Sic |
+| How to Build Side Pots (+ calculator) | side-pots | live | Lesson 32, Week 3 classes, YT aqsD251OjOo / Rd1-W4X_Sic |
 | Split Pots & Quartering | split-pots | planned | TPD42, YT PUQG-WTBtDM |
 | Bomb Pots (Hold'em & PLO, double board) | bomb-pots | planned | TPD41, PLO bomb lesson, YT JdpiQlDOf94 / TjIUpqpmXRM |
 | Straddles, Missed Blinds & the Button | button-and-blinds | planned | Lessons 29-30 |
@@ -54,3 +54,9 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/how-to-handle-chips/
 - /gear/
 - /about/marc-shumsker/
+- /deal/working-the-poker-bank/
+- /deal/buy-ins-and-color-ups/
+- /deal/side-pots/
+
+## Follow-ups
+- Buy-ins page has no primary video yet. Add TPD Lessons 10/11/13/14 from YouTube once real IDs, dates and durations are fetched.
