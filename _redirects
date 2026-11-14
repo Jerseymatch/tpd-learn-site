@@ -1,0 +1,4 @@
+# Old draft URLs -> new structure
+/guide/how-to-shuffle-cards/  /deal/how-to-shuffle-cards/  301
+/guide/*                      /deal/                       301
+/guide                        /deal/                       301
