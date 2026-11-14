@@ -1,0 +1,11 @@
+# Keep internal files out of search results (they're served because Pages serves the repo root)
+/CLAUDE.md
+  X-Robots-Tag: noindex
+/README.md
+  X-Robots-Tag: noindex
+/docs/*
+  X-Robots-Tag: noindex
+/scripts/*
+  X-Robots-Tag: noindex
+/src/*
+  X-Robots-Tag: noindex
