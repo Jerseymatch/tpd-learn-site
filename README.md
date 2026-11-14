@@ -1,4 +1,4 @@
-# learn.truepokerdealer.com: The Dealer's Handbook
+# learn.truepokerdealer.com: Learn to Deal Poker
 
 Marc Shumsker's SEO content site for True Poker Dealer. It's static and pre-rendered, and Cloudflare Pages deploys it from the repo root with no build step.
 

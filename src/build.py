@@ -282,7 +282,7 @@ def header(current_section):
     return (
         '<header class="site"><div class="wrap">'
         '<a class="brand" href="/"><span class="brand-mark" aria-hidden="true">&#9824;</span>'
-        '<span class="brand-text">True Poker Dealer<small>The Dealer&rsquo;s Handbook</small></span></a>'
+        '<span class="brand-text">True Poker Dealer<small>Learn to deal poker</small></span></a>'
         f'<nav class="primary">{"".join(links)}<a class="btn btn-sm" href="{e(free)}">Free lessons</a></nav>'
         "</div></header>"
     )
@@ -445,7 +445,7 @@ def build_page(relpath, meta, raw_body, all_pages):
         if used:
             graph.extend(video_schema(v) for v in dict.fromkeys(used))
         if url == "/":
-            graph.append({"@type": "WebSite", "name": "True Poker Dealer: The Dealer's Handbook", "url": SITE + "/"})
+            graph.append({"@type": "WebSite", "name": "True Poker Dealer: Learn to Deal Poker", "url": SITE + "/"})
 
     out = out_path(url)
     os.makedirs(os.path.dirname(out), exist_ok=True)

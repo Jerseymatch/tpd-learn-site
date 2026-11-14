@@ -1,4 +1,4 @@
-# Playbook: learn.truepokerdealer.com ("The Dealer's Handbook")
+# Playbook: learn.truepokerdealer.com (free "learn to deal poker" guides)
 
 You are writing and maintaining Marc Shumsker's SEO content site for True Poker Dealer. Read this whole file before doing anything. The content plan, with every page and its status, is in `docs/content-plan.md`. Update both files when something changes.
 
