@@ -494,6 +494,16 @@ def main():
         body = re.sub(r"\[\[list (\w+)\]\]", lambda m: list_section(m.group(1)), body)
         built.append((build_page(rel, meta, body, by_url), meta))
 
+    # Real 404 page. Without it, Cloudflare Pages serves the homepage for unknown
+    # URLs with a 200 status, which Google treats as soft 404s.
+    nf_meta = {"title": "Page not found | True Poker Dealer", "description": "This page doesn't exist.", "noindex": True, "type": "page"}
+    nf_body = (
+        '<div class="page"><h1>That page isn\'t here</h1><p class="lede">It may have moved. '
+        'Try the <a href="/deal/">How to Deal</a> guides or head back to the <a href="/">homepage</a>.</p></div>'
+    )
+    with open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8") as f:
+        f.write(page_shell(nf_meta, "/404", nf_body, [ORG], None))
+
     urls = sorted(built, key=lambda x: (x[0] != "/", x[0]))
     with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
