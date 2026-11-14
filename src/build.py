@@ -53,6 +53,7 @@ AUTHOR = {
     "@type": "Person",
     "name": "Marc Shumsker",
     "url": SITE + "/about/marc-shumsker/",
+    "image": SITE + "/assets/marc.jpg",
     "jobTitle": "Poker dealer, poker room shift manager and dealer trainer",
     "sameAs": [YT_CHANNEL, "https://instagram.com/truepokerdealer", MAIN],
 }

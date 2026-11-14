@@ -123,7 +123,7 @@ body{overflow-x:hidden}
 .path p{font-size:.93rem;color:var(--ink-2);margin:0 0 .7rem}
 .profile{display:grid;grid-template-columns:1fr;gap:2rem;align-items:start;max-width:56rem}
 .profile:has(> img){grid-template-columns:200px 1fr}
-.profile img{border-radius:var(--r)}
+.profile img{border-radius:50%}
 @media (max-width:700px){.profile:has(> img){grid-template-columns:1fr}}
 .prose-wide{max-width:var(--measure)}
 .timeline{list-style:none;padding:0;border-left:3px solid var(--gold);margin:1.2rem 0 1.5rem}
