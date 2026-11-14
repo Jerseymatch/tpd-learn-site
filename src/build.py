@@ -46,6 +46,7 @@ SECTIONS = {
     "deal": {"name": "How to Deal", "path": "/deal/"},
     "career": {"name": "Becoming a Dealer", "path": "/career/"},
     "rules": {"name": "Rulings", "path": "/rules/"},
+    "gear": {"name": "Gear", "path": "/gear/"},
     "about": {"name": "About", "path": "/about/marc-shumsker/"},
 }
 
@@ -68,6 +69,8 @@ ORG = {
 
 with open(os.path.join(SRC, "data", "videos.json")) as f:
     VIDEOS = json.load(f)
+with open(os.path.join(SRC, "data", "gear.json")) as f:
+    GEAR = json.load(f)
 
 
 def utm(url, campaign, content="cta"):
@@ -89,6 +92,13 @@ CTAS = {
         "body": "50+ lessons covering everything a poker room expects you to know on day one. It's the course I built so I could stop re-training new hires in the back of the house. $79/month, cancel any time.",
         "button": "See the Complete Course",
         "url": MAIN + "/complete-course",
+    },
+    "call": {
+        "kicker": "Free pathway call",
+        "title": "Not sure where to start? Talk it through with me",
+        "body": "Book a free 30-minute Poker Dealer Pathway Call and I'll give you a clear, personal roadmap toward getting hired.",
+        "button": "Book a free call",
+        "url": MAIN + "/book-pathwaycall",
     },
     "school": {
         "kicker": "Remote Dealer School",
@@ -177,6 +187,29 @@ def render_cta(key, campaign):
     )
 
 
+def render_gear(spec, campaign):
+    if "|" in spec:
+        keys, heading = spec.split("|", 1)
+    else:
+        keys, heading = spec, "What I recommend for practicing this"
+    items = []
+    for k in keys.split():
+        if k not in GEAR:
+            sys.exit(f"Unknown gear key {k} - add it to src/data/gear.json")
+        g = GEAR[k]
+        items.append(
+            f'<li><div class="gear-txt"><span class="gear-label">{e(g["label"])}</span>'
+            f'<span class="gear-name">{e(g["name"])}</span><span class="gear-note">{e(g["note"])}</span></div>'
+            f'<a class="gear-btn" href="{e(g["url"])}" rel="sponsored nofollow noopener" target="_blank">See it on Amazon</a></li>'
+        )
+    return (
+        f'<aside class="gear"><p class="gear-kicker">What I use</p><p class="gear-h">{e(heading.strip())}</p>'
+        f'<ul class="gear-list">{"".join(items)}</ul>'
+        f'<p class="gear-disc">These are the same items I recommend to students in my course. I earn a small commission if you buy through these links, at no extra cost to you. '
+        f'<a href="/gear/">See everything you need to practice at home</a>.</p></aside>'
+    )
+
+
 def slugify(text):
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text).lower()
@@ -207,6 +240,8 @@ def process_body(body, campaign):
     body = re.sub(r"\[\[lite ([\w-]{11})\]\]", lambda m: render_video(m.group(1), False, used), body)
     body = re.sub(r"\[\[shorts ([\w\- ]+)\]\]", lambda m: render_shorts(m.group(1).split(), used), body)
     body = re.sub(r"\[\[cta (\w+)\]\]", lambda m: render_cta(m.group(1), campaign), body)
+    body = re.sub(r"\[\[gear ([^\]]+)\]\]", lambda m: render_gear(m.group(1), campaign), body)
+    body = body.replace("[[storefront]]", e(GEAR["_storefront"]))
     body = add_heading_ids(body)
     body = body.replace("[[toc]]", build_toc(body))
     return body, used
@@ -237,7 +272,7 @@ def out_path(url):
 
 def header(current_section):
     links = []
-    for key in ("deal", "career", "rules", "about"):
+    for key in ("deal", "career", "rules", "gear", "about"):
         if key not in PUBLISHED_SECTIONS:
             continue
         s = SECTIONS[key]

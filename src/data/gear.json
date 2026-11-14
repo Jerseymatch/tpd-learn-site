@@ -1,0 +1,58 @@
+{
+  "_storefront": "https://amzn.to/43cTuwf",
+  "_note": "Links and notes come from Marc's 'Materials Needed' lesson in the Complete Course (Ivorey). Affiliate tag truepokerde0c-20. Product titles verified on Amazon Nov 14, 2026.",
+  "cards": {
+    "name": "Copag 1546 plastic playing cards (bridge size)",
+    "label": "Cards",
+    "url": "https://amzn.to/3jR7bbf",
+    "note": "You need cards made for poker, which means 100% plastic. Don't practice with paper cards. Bridge size is slightly narrower, which helps if your practice surface is small."
+  },
+  "cutcard": {
+    "name": "Da Vinci plastic cut cards (bridge size)",
+    "label": "Cut card",
+    "url": "https://amzn.to/3h0p9pJ",
+    "note": "Cut cards don't come with the decks, and you can't practice the cut without one. Match the cut card to your card size. These are bridge size, to go with the cards above."
+  },
+  "felt": {
+    "name": "Texas Hold'em layout felt (36\" x 72\")",
+    "label": "Felt",
+    "url": "https://amzn.to/3IqyN92",
+    "note": "Any felt works. You just need enough space to practice on, laid over padding on your dining room table."
+  },
+  "padding": {
+    "name": "Thick non-slip pad (goes under the felt)",
+    "label": "Padding",
+    "url": "https://amzn.to/4pDDP2K",
+    "note": "Do not skip the padding. You'll be miserable without it. Every poker table has foam under the felt, and that's what lets your fingers get under the bottom card when you shuffle and under the chips when you cut."
+  },
+  "chips": {
+    "name": "Trademark Poker 500-chip set (11.5g)",
+    "label": "Chips",
+    "url": "https://amzn.to/36Zjmz8",
+    "note": "You need chips to practice just about everything. High-quality casino chips are expensive; this set gets the job done for training, and it includes a dealer button and missed blind buttons."
+  },
+  "tray": {
+    "name": "Dealer chip tray",
+    "label": "Dealer tray",
+    "url": "https://amzn.to/2K6dDhS",
+    "note": "Once you're working with a bank, buy-ins and making change, you'll want a real tray to practice in."
+  },
+  "spacers": {
+    "name": "Clear chip spacers (lammers), 50 pack",
+    "label": "Spacers",
+    "url": "https://amzn.to/33piBgT",
+    "note": "You could get by with coins, but spacers are cheap and much easier. They organize the chips in your tray, and rooms sometimes use them in place of missed blind buttons."
+  },
+  "button": {
+    "name": "Da Vinci dealer buttons (set of 6)",
+    "label": "Dealer button",
+    "url": "https://amzn.to/3m33u2A",
+    "note": "Only needed if your chip set didn't come with one. It's inexpensive and makes practicing button movement a lot easier."
+  },
+  "table": {
+    "name": "GarveeLife oval poker table with 9 cup holders",
+    "label": "Poker table (optional)",
+    "url": "https://amzn.to/4nDdiAA",
+    "note": "Optional, but it's the simplest real table. I have this exact one, and it took about 2 hours to put together. If you get it, you don't need the felt, padding or tray."
+  }
+}
