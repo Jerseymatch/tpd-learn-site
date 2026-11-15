@@ -11,8 +11,8 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | How to Handle Chips | how-to-handle-chips | live | RS3, TPD6, YT hnNIKF450rU |
 | Working the Bank | working-the-poker-bank | live | RS4, TPD7-9, YT G2EB7Ku-P3A (bank fill) |
 | Buy-Ins, Cheque Change & Color-Ups | buy-ins-and-color-ups | live | RS5, TPD10-14 |
-| How to Bring the Flop, Turn & River | flop-turn-river | planned | RS7, TPD18, YT s2MQmZI3FO4, stub: YT hWr3Dtr2ryw |
-| How to Deal a Hand of Texas Hold'em | how-to-deal-texas-holdem | planned | RS8 |
+| How to Bring the Flop, Turn & River | flop-turn-river | live | RS7, TPD18, YT s2MQmZI3FO4, stub: YT hWr3Dtr2ryw |
+| How to Deal a Hand of Texas Hold'em | how-to-deal-texas-holdem | live | RS8 |
 | Cards Speak & One Player Per Hand | cards-speak | planned | RS9 |
 | Cash Game Procedures | cash-game-procedures | planned | RS10 |
 | Bets, Calls & Making Change | making-change | planned | RS11 |
@@ -57,6 +57,11 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/working-the-poker-bank/
 - /deal/buy-ins-and-color-ups/
 - /deal/side-pots/
+- /deal/flop-turn-river/
+- /deal/how-to-deal-texas-holdem/
 
 ## Follow-ups
+- Flop/turn/river: Marc to confirm the turn technique. Lesson 7 says flip it in front of you and slide it into place ("both are right"); a July 2026 class says sliding wastes time and to bring cards close to the final spot. The page keeps both; adjust if he prefers one.
+- How to deal Texas hold'em page has no primary video (Lesson 8 is Remote School only). Add a public YouTube video if one fits, or ask Marc about a class clip.
+- Dealing a hand page covers betting, showdown and rake only at a basic level, deliberately; link to making-change, betting-rules, the-showdown and rake-and-tips once those pages are live.
 - Buy-ins page has no primary video yet. Add TPD Lessons 10/11/13/14 from YouTube once real IDs, dates and durations are fetched.
