@@ -13,8 +13,8 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | Buy-Ins, Cheque Change & Color-Ups | buy-ins-and-color-ups | live | RS5, TPD10-14 |
 | How to Bring the Flop, Turn & River | flop-turn-river | live | RS7, TPD18, YT s2MQmZI3FO4, stub: YT hWr3Dtr2ryw |
 | How to Deal a Hand of Texas Hold'em | how-to-deal-texas-holdem | live | RS8 |
-| Cards Speak & One Player Per Hand | cards-speak | planned | RS9 |
-| Cash Game Procedures | cash-game-procedures | planned | RS10 |
+| Cards Speak & One Player Per Hand | cards-speak | live | RS9 |
+| Cash Game Procedures | cash-game-procedures | live | RS10 |
 | Bets, Calls & Making Change | making-change | planned | RS11 |
 | The Showdown | the-showdown | planned | RS12, YT PCPvJy6b4iA / S2lMEkvnfno |
 | Rake, Promo Drop & Tips | rake-and-tips | planned | RS13 |
@@ -59,8 +59,12 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/side-pots/
 - /deal/flop-turn-river/
 - /deal/how-to-deal-texas-holdem/
+- /deal/cards-speak/
+- /deal/cash-game-procedures/
 
 ## Follow-ups
+- Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
+- Cash game page introduces missed blinds and straddles only briefly and says they get their own guide (button-and-blinds). Link it when that page is live.
 - Flop/turn/river: Marc to confirm the turn technique. Lesson 7 says flip it in front of you and slide it into place ("both are right"); a July 2026 class says sliding wastes time and to bring cards close to the final spot. The page keeps both; adjust if he prefers one.
 - How to deal Texas hold'em page has no primary video (Lesson 8 is Remote School only). Add a public YouTube video if one fits, or ask Marc about a class clip.
 - Dealing a hand page covers betting, showdown and rake only at a basic level, deliberately; link to making-change, betting-rules, the-showdown and rake-and-tips once those pages are live.
