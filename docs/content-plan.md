@@ -17,8 +17,8 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | Cash Game Procedures | cash-game-procedures | live | RS10 |
 | Bets, Calls & Making Change | making-change | live | RS11 |
 | The Showdown | the-showdown | live | RS12, YT PCPvJy6b4iA / S2lMEkvnfno |
-| Rake, Promo Drop & Tips | rake-and-tips | planned | RS13 |
-| The Technical Rules of Betting (min raise, all-in for less) | betting-rules | planned | RS14, Lesson 31 |
+| Rake, Promo Drop & Tips | rake-and-tips | live | RS13 |
+| The Technical Rules of Betting (min raise, all-in for less) | betting-rules | live | RS14, Lesson 31 |
 | Misdeals | misdeals | planned | RS15 |
 | How to Build Side Pots (+ calculator) | side-pots | live | Lesson 32, Week 3 classes, YT aqsD251OjOo / Rd1-W4X_Sic |
 | Split Pots & Quartering | split-pots | planned | TPD42, YT PUQG-WTBtDM |
@@ -63,14 +63,20 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/cash-game-procedures/
 - /deal/making-change/
 - /deal/the-showdown/
+- /deal/rake-and-tips/
+- /deal/betting-rules/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
 - Cash game page introduces missed blinds and straddles only briefly and says they get their own guide (button-and-blinds). Link it when that page is live.
 - Flop/turn/river: Marc to confirm the turn technique. Lesson 7 says flip it in front of you and slide it into place ("both are right"); a July 2026 class says sliding wastes time and to bring cards close to the final spot. The page keeps both; adjust if he prefers one.
 - How to deal Texas hold'em page has no primary video (Lesson 8 is Remote School only). Add a public YouTube video if one fits, or ask Marc about a class clip.
-- Dealing a hand page covers betting, showdown and rake only at a basic level, deliberately; making-change and the-showdown are now live and linked from it. Link betting-rules and rake-and-tips once those are live.
+- Dealing a hand page covers betting, showdown and rake only at a basic level, deliberately; making-change, the-showdown, rake-and-tips and betting-rules are now live and linked from it.
 - Making change and showdown pages have no primary video (Lessons 11 and 12 are Remote School only). The showdown page embeds TPD Lesson 15 (hand rankings) as a secondary video; that file is labeled "Do Not Embed", same as other lessons already embedded on the site. Marc to confirm what that label means.
 - Showdown page: Lesson 12 includes a line ("my personal opinion is you should protect them", about a player who forgets an all-in player in the main pot) that may be a student comment read aloud, so the page leaves it out and only says rooms differ. Marc to confirm his own view.
-- Making change and showdown pages mention the oversized chip rule and betting increments only in passing; link betting-rules when it's live.
+- Making change and showdown pages mention the oversized chip rule and betting increments only in passing; betting-rules is now live (linked from the hold'em hand page). Add links from making-change/showdown if a natural spot comes up.
 - Buy-ins page has no primary video yet. Add TPD Lessons 10/11/13/14 from YouTube once real IDs, dates and durations are fetched.
+- Rake and betting-rules pages have no primary video (Lessons 13 and 14 are Remote School only). Rake page embeds "Is Hourly Rate More About Being Friendly or Dealing Fast?" (GWonx0JkoNk) as a secondary video in the tips section (no transcript of it in tpd-knowledge, so no claims are drawn from it). Betting-rules page embeds All In Button Use (aqsD251OjOo). A short on the 50% rule / reopening the action would be a strong primary video.
+- Betting-rules page: Lesson 14 names a WSOP player (gesture example) and a well-known poker room manager (east/west min-raise conversation); both left off the page. Marc can add them if he wants.
+- Rake page: Lesson 13 mentions Texas "found a loophole" on taking a rake without a gaming license, and talks about home-game licensing; the page leaves legal/licensing questions out. A home-game page could cover it if Marc wants, with care.
+- Lesson 31 (How to Run Your Game) was listed as a betting-rules source but covers running the table in general, not betting rules, so it wasn't used. Better fit for a future "how to run a home game" page.
