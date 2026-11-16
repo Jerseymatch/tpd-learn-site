@@ -3,7 +3,7 @@
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
 ## PRIORITY (Marc, Nov 16): do the "Becoming a Dealer" section next
-Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`. **Pay, tips and specific rooms: use only what Marc has said publicly (YouTube/livestreams). Never use his hourly rate or room-specific pay from class, or private games (rule 8 in CLAUDE.md). Put anything borderline in "Needs Marc's OK" below.**
+Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`. **Never publish how much Marc makes, what specific rooms pay, or private games he has dealt (rule 8). Everything else from class and YouTube is fair game. Ask Marc about anything borderline via "Needs Marc's OK" below.**
 
 ## How to Deal (`/deal/`)
 | Page | Slug | Status | Sources |
@@ -118,7 +118,7 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Pay page (Nov 16): built only from public material (YouTube/livestreams) for money figures, per rule 8. Class-only items are in "Needs Marc's OK" below.
 - Become-a-dealer page: the felony line follows Marc's livestream ("this job's not for you"). The in-house casino class is described in a student's words ("more of a weed-out"); Marc may want to add his own view.
 
-## Needs Marc's OK (possibly sensitive; not published until he says yes)
+## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
 - Pay page: class figures for Washington (about $17 base, dealers about $50/hr), new dealers ~$30 and "$35 and up once fast", day vs night hours (10am-6pm dollar tippers, 8pm-7am better), and rooms capping hours at 30-32/week to avoid benefits (Feb 2026 class, 4/3). Left out; the page uses the public livestream versions instead.
 - Pay page: the $19.55 tournament down-rate worked example (~$32/hr tournament-only) from a July 2026 class about a specific event. Left out; the page uses the public WSOP figure ($33-35/hr).
