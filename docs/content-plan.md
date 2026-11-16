@@ -124,3 +124,6 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Pay page: the $19.55 tournament down-rate worked example (~$32/hr tournament-only) from a July 2026 class about a specific event. Left out; the page uses the public WSOP figure ($33-35/hr).
 - Pay page: "women usually earn more in tips" (public livestream fkoWR0vVPuA 20:33). Public, but left out as a judgment call. Marc to say if he wants it.
 - Class talk about specific rooms' monthly earnings and base pay (Dallas) and the "they ask us not to talk about this" passage: never used.
+- Audit Nov 16 (rule 8): nothing about Marc's earnings, a named room's pay or private games found on the career pages. Two borderline items left up for Marc to decide:
+  - Pay page: WSOP figures (new dealer ~$33-35/hr tournament-only, ~$12-13K for a summer, circuit 12 days = 1.5 months at an old job). All from public livestreams (FrjgBD-P-3c, XvgET6UTXOU), but the WSOP is arguably "a specific room." Keep or cut?
+  - Become-a-dealer page: a Florida tribal casino turned down someone who passed the audition over $20,000+ of unpaid debt (Oct 2026 class, anonymous). Not pay, but it's from class and points at a type of employer in Florida. Keep or cut?
