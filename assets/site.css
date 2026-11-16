@@ -168,3 +168,30 @@ footer.site .fine a{display:inline}
 .btn-sm{padding:.45rem .9rem;font-size:.9rem;border:0;cursor:pointer}
 .calc-secondary{background:transparent;color:inherit;border:1px solid currentColor}
 .calc-list{margin:.5rem 0 0;padding-left:1.2rem}.calc-hint{color:#666;margin:.5rem 0 0}
+/* Learn-with-Marc rail (desktop) and early inline mention (phones) */
+.rail{display:none}
+.inline-school{border-left:4px solid var(--gold);background:#f6efdc;border-radius:0 10px 10px 0;padding:.9rem 1.1rem;margin:2rem 0;font-family:var(--sans);font-size:.95rem}
+.inline-school p{margin:0 0 .35rem}
+.inline-school a{font-weight:700}
+.classroom .drill{margin:.8rem 0 0;font-family:var(--sans);font-size:.9rem}
+.classroom .drill a{font-weight:700}
+@media (min-width:1180px){
+  .with-rail{display:grid;grid-template-columns:minmax(0,var(--measure)) 18.5rem;gap:3rem;max-width:calc(var(--measure) + 21.5rem + 2.5rem);margin:0 auto;padding:0 1.25rem;align-items:start}
+  .with-rail .article{margin:0;padding-left:0;padding-right:0}
+  .rail{display:block;position:sticky;top:1.5rem;margin-top:6.5rem}
+  .inline-school{display:none}
+}
+.rail-card{border-radius:14px;padding:1.2rem 1.2rem 1.1rem;font-family:var(--sans);font-size:.92rem;line-height:1.45}
+.rail-school{background:var(--felt);color:#eaf3ee}
+.rail-school .kicker,.rail-course .kicker{font:700 .7rem var(--sans);text-transform:uppercase;letter-spacing:.1em;margin:0;color:var(--gold)}
+.rail-title{font:700 1.2rem/1.25 var(--serif);color:#fff;margin:.3rem 0 .5rem}
+.rail-school p{margin:0 0 .8rem}
+.btn-block{display:block;text-align:center}
+.rail-school .when{margin:.75rem 0 0;font-size:.85rem}
+.rail-school .when a{color:#fff;text-decoration:underline}
+.rail-course{background:#fff;border:1px solid var(--line,#e2dccb);margin-top:1rem}
+.rail-course .kicker{color:var(--ink-2,#555)}
+.rail-title-sm{font:700 1.05rem var(--serif);margin:.25rem 0 .35rem}
+.rail-course p{margin:0 0 .5rem}
+.rail-link{font-weight:700}
+.rail-free{font-family:var(--sans);font-size:.85rem;text-align:center;margin:.8rem 0 0}

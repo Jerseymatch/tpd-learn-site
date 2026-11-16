@@ -260,6 +260,71 @@ def build_toc(body):
     return f'<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol>{lis}</ol></nav>'
 
 
+SCHOOL = json.load(open(os.path.join(SRC, "data", "school.json"), encoding="utf-8"))
+
+# Rail line per section: what the reader is doing on that page, tied to the school.
+RAIL_HOOK = {
+    "deal": "Want to deal this with me watching?",
+    "rules": "Want to practice these rulings on real hands?",
+    "career": "Want help getting through your audition?",
+    "gear": "Got the gear? Now get the feedback.",
+}
+
+
+def school_when(campaign, content):
+    nc = (SCHOOL.get("next_class") or "").strip()
+    link = e(utm(MAIN + "/remote-dealer-school", campaign, content + "-date"))
+    if nc:
+        return f'<p class="when">Next class starts <strong>{e(nc)}</strong>. <a href="{link}">Details</a></p>'
+    return f'<p class="when"><a href="{link}">See when the next class starts &rarr;</a></p>'
+
+
+def render_rail(section, campaign):
+    hook = RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
+    school = e(utm(MAIN + "/remote-dealer-school", campaign, "rail-school"))
+    course = e(utm(MAIN + "/complete-course", campaign, "rail-course"))
+    free = e(utm(MAIN + "/freelessons", campaign, "rail-free"))
+    return (
+        '<aside class="rail" aria-label="Learn with Marc"><div class="rail-in">'
+        '<div class="rail-card rail-school"><p class="kicker">Remote Dealer School</p>'
+        f'<p class="rail-title">{e(hook)}</p>'
+        '<p>Small live Zoom classes. You deal hands on camera, I correct you in real time, and you rewatch your recording.</p>'
+        f'<a class="btn btn-block" href="{school}">See Remote Dealer School</a>'
+        f'{school_when(campaign, "rail")}</div>'
+        '<div class="rail-card rail-course"><p class="kicker">Rather go at your own pace?</p>'
+        '<p class="rail-title-sm">The Complete Course</p>'
+        '<p>50+ lessons, every procedure in order. $79/month, cancel any time.</p>'
+        f'<a class="rail-link" href="{course}">See the course &rarr;</a></div>'
+        f'<p class="rail-free"><a href="{free}">Or start with the free lessons</a></p>'
+        '</div></aside>'
+    )
+
+
+def render_inline_school(section, campaign):
+    hook = RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
+    school = e(utm(MAIN + "/remote-dealer-school", campaign, "inline-school"))
+    return (
+        '<aside class="inline-school" aria-label="Remote Dealer School">'
+        f'<p><strong>{e(hook)}</strong> In Remote Dealer School you deal on camera and I correct you live.</p>'
+        f'<a href="{school}">See Remote Dealer School &rarr;</a></aside>'
+    )
+
+
+def add_drill_lines(body, campaign):
+    link = e(utm(MAIN + "/remote-dealer-school", campaign, "classroom"))
+    line = f'<p class="drill"><a href="{link}">We drill exactly this in Remote Dealer School &rarr;</a></p>'
+    return re.sub(r'(<div class="classroom">.*?)(</div>)', lambda m: m.group(1) + line + m.group(2), body, flags=re.S)
+
+
+def insert_early_school(body, section, campaign):
+    # Before the 2nd H2 of the body (after the first real section); shown only on narrow screens.
+    heads = [m.start() for m in re.finditer(r'<h2 id=', body)]
+    if len(heads) < 3:
+        return body
+    i = heads[1]
+    return body[:i] + render_inline_school(section, campaign) + body[i:]
+
+
 def process_body(body, campaign):
     used = []
     body = re.sub(r"\[\[video ([\w-]{11})\]\]", lambda m: render_video(m.group(1), True, used), body)
@@ -446,7 +511,13 @@ def build_page(relpath, meta, raw_body, all_pages):
                     items.append(f'<li><a href="{r}">{e(p.get("h1", p["title"]))}</a></li>')
             if items:
                 related = f'<nav class="related"><p class="rel-title">Keep going</p><ul>{"".join(items)}</ul></nav>'
-        body_html = f'<article class="article">{head}<div class="prose">{body}</div>{author_box()}{related}</article>'
+        section = url.strip("/").split("/")[0]
+        body = add_drill_lines(body, campaign)
+        body = insert_early_school(body, section, campaign)
+        body_html = (
+            f'<div class="with-rail"><article class="article">{head}<div class="prose">{body}</div>{author_box()}{related}</article>'
+            f'{render_rail(section, campaign)}</div>'
+        )
         art = {
             "@type": "Article",
             "headline": meta.get("h1", meta["title"]),
