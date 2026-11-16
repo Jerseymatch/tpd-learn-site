@@ -3,6 +3,7 @@ document.addEventListener("click", function (ev) {
   var a = ev.target.closest && ev.target.closest("a[data-yt]");
   if (!a || ev.metaKey || ev.ctrlKey || ev.shiftKey) return;
   ev.preventDefault();
+  if (a.hasAttribute("data-modal")) { openVideoModal(a); return; }
   var f = document.createElement("iframe");
   f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-yt") + "?autoplay=1&rel=0" + (a.getAttribute("data-start") ? "&start=" + a.getAttribute("data-start") : "");
   f.title = a.getAttribute("aria-label") || "YouTube video";
@@ -21,3 +22,22 @@ document.querySelectorAll("p.when[data-until]").forEach(function (p) {
   a.innerHTML = p.getAttribute("data-fallback");
   p.replaceChildren(a);
 });
+
+// Large player for small thumbnails (the sidebar video): opens centred over the page.
+function openVideoModal(a) {
+  var d = document.createElement("dialog");
+  d.className = "vmodal";
+  d.innerHTML = '<button class="vmodal-x" aria-label="Close video">&times;</button><div class="vmodal-frame"></div>';
+  var f = document.createElement("iframe");
+  f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-yt") + "?autoplay=1&rel=0";
+  f.title = a.getAttribute("aria-label") || "YouTube video";
+  f.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+  f.allowFullscreen = true;
+  d.querySelector(".vmodal-frame").appendChild(f);
+  document.body.appendChild(d);
+  function close() { d.close(); d.remove(); }
+  d.querySelector(".vmodal-x").onclick = close;
+  d.addEventListener("click", function (e) { if (e.target === d) close(); });
+  d.addEventListener("cancel", function () { d.remove(); });
+  d.showModal();
+}
