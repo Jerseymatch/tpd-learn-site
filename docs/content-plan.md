@@ -3,7 +3,7 @@
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
 ## PRIORITY (Marc, Nov 16): do the "Becoming a Dealer" section next
-Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`.
+Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`. **Pay, tips and specific rooms: use only what Marc has said publicly (YouTube/livestreams). Never use his hourly rate or room-specific pay from class, or private games (rule 8 in CLAUDE.md). Put anything borderline in "Needs Marc's OK" below.**
 
 ## How to Deal (`/deal/`)
 | Page | Slug | Status | Sources |
@@ -109,3 +109,5 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Button-and-blinds: seat-change posting threshold differs between sources (classes: skip three or more and you post; RS10: "more than three", sometimes two). Page gives three-or-more as the rule of thumb and says rooms vary. Marc to confirm.
 - Button-and-blinds: correction-log row 5_4_26 01:10:39 says a missed big blind posts just the big blind; the transcript shows $3. The row is wrong and wasn't used.
 
+## Needs Marc's OK (possibly sensitive; not published until he says yes)
+- (none yet)
