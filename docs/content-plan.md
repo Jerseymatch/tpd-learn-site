@@ -57,11 +57,16 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
-| How to count down and announce large bets | counting-bets | planned | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
+| How to count down and announce large bets | counting-bets | drafting (Nov 16 evening extra run) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
 | Gambling and the poker dealer: EV, the house edge and money habits | dealers-and-gambling | planned | tags ev-life (34), gambling-industry (31); YT OZJjdOMiJE8, PIIX329cgG8 |
 | Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | planned | tag game-protection (62 moments), surveillance (13); fits /deal/ or /rules/ |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
+| Page | Slug | Status | Sources |
+|---|---|---|---|
+| What happens when a player acts out of turn | acting-out-of-turn | drafting (Nov 16 evening extra run) | RS14, class transcripts, correction log, YT floor-calls moments |
+
+Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
 
 ## Tools (`/tools/`)
