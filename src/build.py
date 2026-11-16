@@ -284,34 +284,47 @@ def school_when(campaign, content):
     return f'<p class="when"><a href="{link}">See when the next class starts &rarr;</a></p>'
 
 
-def render_rail(section, campaign):
-    hook = RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
+RAIL_VIDEO = {"id": "Ljnk9aLZf2Y", "caption": "Two of my students on going from class to dealing WSOP Circuit events"}
+RAIL_PROOF = {"text": "A student got hired as a poker dealer one hour after class.", "url": "https://www.youtube.com/watch?v=w8RLdmVwZQo"}
+
+
+def render_rail(section, campaign, hook=None, course_line=None):
+    hook = hook or RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
     school = e(utm(MAIN + "/remote-dealer-school", campaign, "rail-school"))
+    call = e(utm(MAIN + "/book-pathwaycall", campaign, "rail-call"))
     course = e(utm(MAIN + "/complete-course", campaign, "rail-course"))
-    free = e(utm(MAIN + "/freelessons", campaign, "rail-free"))
+    vid = RAIL_VIDEO["id"]
+    course_line = course_line or "This guide is one lesson. The Complete Course has all 50+, in order, at your own pace."
     return (
         '<aside class="rail" aria-label="Learn with Marc"><div class="rail-in">'
-        '<div class="rail-card rail-school"><p class="kicker">Remote Dealer School</p>'
+        '<div class="rail-card rail-school">'
+        '<div class="rail-who"><img src="/assets/marc.jpg" alt="Marc Shumsker" width="44" height="44" loading="lazy">'
+        '<p><strong>Marc Shumsker</strong><span>10,000+ dealers trained</span></p></div>'
         f'<p class="rail-title">{e(hook)}</p>'
-        '<p>Small live Zoom classes. You deal hands on camera, I correct you in real time, and you rewatch your recording.</p>'
-        f'<a class="btn btn-block" href="{school}">See Remote Dealer School</a>'
-        f'{school_when(campaign, "rail")}</div>'
-        '<div class="rail-card rail-course"><p class="kicker">Rather go at your own pace?</p>'
-        '<p class="rail-title-sm">The Complete Course</p>'
-        '<p>50+ lessons, every procedure in order. $79/month, cancel any time.</p>'
-        f'<a class="rail-link" href="{course}">See the course &rarr;</a></div>'
-        f'<p class="rail-free"><a href="{free}">Or start with the free lessons</a></p>'
+        '<p>Remote Dealer School: small live Zoom classes. You deal on camera and I correct you in real time.</p>'
+        f'<a class="vframe lite rail-vid" href="https://www.youtube.com/watch?v={vid}" data-yt="{vid}" aria-label="Play: {e(RAIL_VIDEO["caption"])}">'
+        f'<img src="https://i.ytimg.com/vi/{vid}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play" aria-hidden="true"></span></a>'
+        f'<p class="rail-vcap">{e(RAIL_VIDEO["caption"])}</p>'
+        f'{school_when(campaign, "rail")}'
+        f'<a class="btn btn-block" href="{school}">See if it&rsquo;s right for me</a>'
+        f'<p class="rail-call">Not sure yet? <a href="{call}">Book a free call with me</a></p>'
+        f'<p class="rail-proof"><a href="{e(RAIL_PROOF["url"])}">{e(RAIL_PROOF["text"])}</a></p>'
+        '</div>'
+        '<div class="rail-card rail-course"><p class="kicker">Learning on your own?</p>'
+        f'<p>{e(course_line)} $79/month.</p>'
+        f'<a class="rail-link" href="{course}">See the Complete Course &rarr;</a></div>'
         '</div></aside>'
     )
 
 
-def render_inline_school(section, campaign):
-    hook = RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
+def render_inline_school(section, campaign, hook=None):
+    hook = hook or RAIL_HOOK.get(section, "Want me to watch you deal and correct you live?")
     school = e(utm(MAIN + "/remote-dealer-school", campaign, "inline-school"))
     return (
         '<aside class="inline-school" aria-label="Remote Dealer School">'
-        f'<p><strong>{e(hook)}</strong> In Remote Dealer School you deal on camera and I correct you live.</p>'
-        f'<a href="{school}">See Remote Dealer School &rarr;</a></aside>'
+        '<img src="/assets/marc.jpg" alt="Marc Shumsker" width="48" height="48" loading="lazy">'
+        f'<div><p><strong>{e(hook)}</strong> In Remote Dealer School you deal on camera and I correct you live.</p>'
+        f'<a href="{school}">See if it&rsquo;s right for you &rarr;</a></div></aside>'
     )
 
 
@@ -321,13 +334,13 @@ def add_drill_lines(body, campaign):
     return re.sub(r'(<div class="classroom">.*?)(</div>)', lambda m: m.group(1) + line + m.group(2), body, flags=re.S)
 
 
-def insert_early_school(body, section, campaign):
+def insert_early_school(body, section, campaign, hook=None):
     # Before the 2nd H2 of the body (after the first real section); shown only on narrow screens.
     heads = [m.start() for m in re.finditer(r'<h2 id=', body)]
     if len(heads) < 3:
         return body
     i = heads[1]
-    return body[:i] + render_inline_school(section, campaign) + body[i:]
+    return body[:i] + render_inline_school(section, campaign, hook) + body[i:]
 
 
 def process_body(body, campaign):
@@ -518,10 +531,10 @@ def build_page(relpath, meta, raw_body, all_pages):
                 related = f'<nav class="related"><p class="rel-title">Keep going</p><ul>{"".join(items)}</ul></nav>'
         section = url.strip("/").split("/")[0]
         body = add_drill_lines(body, campaign)
-        body = insert_early_school(body, section, campaign)
+        body = insert_early_school(body, section, campaign, meta.get("rail_hook"))
         body_html = (
             f'<div class="with-rail"><article class="article">{head}<div class="prose">{body}</div>{author_box()}{related}</article>'
-            f'{render_rail(section, campaign)}</div>'
+            f'{render_rail(section, campaign, meta.get("rail_hook"), meta.get("rail_course"))}</div>'
         )
         art = {
             "@type": "Article",
