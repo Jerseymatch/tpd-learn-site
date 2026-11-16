@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice live Nov 16; next: calling-the-floor as a /rules/ page, then more /rules/ topics, then career ideas)
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice, calling-the-floor, verbal-declarations live Nov 16; next: more /rules/ topics (showdown-disputes, game-protection), then career ideas)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -54,7 +54,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
-| When a dealer should call the floor (and how) | calling-the-floor | drafting (/rules/, Nov 16 run) | tag floor-calls (18 moments); fits /rules/ |
+| When a dealer should call the floor (and how) | calling-the-floor | live (/rules/calling-the-floor/) | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
 | How to count down and announce large bets | counting-bets | live (/deal/counting-bets/) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
@@ -69,8 +69,8 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | What happens when a player acts out of turn | acting-out-of-turn | live | Class transcripts (Feb 3_11/3_16, Apr 5_4/5_6/5_20, Jun 7_29/7_31, Jul 8_12, Oct 10_19/11_13), RS8, RS14, RS15, TPD31, Mixed Games L10, YT W_B8yAuYz90 |
 | Exposed cards on the deal | exposed-cards | live | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
 | Running it twice | running-it-twice | live | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
-| When to call the floor | calling-the-floor | drafting | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
-| Verbal is binding: what counts as your action | verbal-declarations | drafting (string bets themselves stay on /deal/betting-rules/) | RS14, class transcripts, correction log, YT betting-rules moments |
+| When to call the floor | calling-the-floor | live | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
+| Verbal is binding: what counts as your action | verbal-declarations | live (string bets themselves stay on /deal/betting-rules/) | RS14, class transcripts, correction log, YT betting-rules moments |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -119,6 +119,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /rules/acting-out-of-turn/
 - /rules/exposed-cards/
 - /rules/running-it-twice/
+- /rules/calling-the-floor/
+- /rules/verbal-declarations/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -171,6 +173,11 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Exposed-cards page (Nov 16): goes beyond /deal/misdeals/ and the pitch page with the player-flips-own-card rule (6_3_26c), heads-up/3+/all-in flipping (7_27_26_June, 5_4_26), tournaments = floor call (8_19_26_June), premature cards = always a floor call (8_7_26_June, W_B8yAuYz90), and handling habits. Moments embedded: eSMeQhB4HzQ 41:52, fieG5mvinQs 1:18:11 (both added to videos.json, date from the index manifest). Not used: EWnALewzuUc 1:06:10 (embed: maybe), R_vOQHJ3RB0 50:49 (criticizes named people). The WSOP "rolling the deck is an automatic no" line was a student's question Marc confirmed; page says "some rooms, the World Series among them."
 - Running-it-twice page (Nov 16): built from ~25 class transcripts (Apr-Oct 2026), Lesson 32 and RZWBGJbdNmw/EWnALewzuUc index notes. Names Texas Card House policies (thumbs up for 3+ players, using the bottom card, Dallas floor call when the main says once) as Marc described them; Marc says Austin may differ. Left out: the house's hourly dollar figure (8_24_26_p1), the "pretend you didn't hear the all in" shortcut (5_26_26), a student's room name, Marc's pocket-kings story (stakes). No primary video (RZWBGJbdNmw moments only); a short on burning for two boards would be a strong one. Added EWnALewzuUc to videos.json (manifest date).
 - Rules hub "coming next" now shows When to Call the Floor (calling-the-floor, moved toward /rules/).
+
+- Calling-the-floor page (Nov 16): built from RS9, RS14, TPD31, ~25 class moments (Feb-Oct 2026) and floor-calls index notes. Moments: GGnnQKhajUU 36:02, PCVTD78J2Rk 17:19, 9wsXu-0dGZA 23:54, Sf3BKrj43Gc 2:16:57, EWnALewzuUc 1:19:08. Left out: the 4am "nobody comes" small-room scenario (5_22_26, reads like permission to self-fix), the 2007 supervisor's name, Marc's "Florida players" remark (8_19_26_July), all Nancy Bernstein stream moments (speaker unclear), GGnnQKhajUU 17:25 (a named grad). Not taken from the private rulebook project's decisions (kept for that product).
+- Verbal-declarations page (Nov 16): string bets, the 50% rule and basic gestures already live on /deal/betting-rules/, so this page covers the situations around them (pot/all-in binding, call + cards tossed, speaking before the chip lands, "I said raise" not heard, "going up", "was that your action?", forward motion then check/fold). Moments: bxrHOt7JRiI 1:08:54, xJBsNUVRVNE 1:18:13, 9l5P9EpGC90 17:55. Left out: the Las Colinas player-from-Florida story (8_19_26_July; advanced dealer discretion + unflattering region remark), gmiDqte44mk 13:08 clarification angle. Watch Search Console for overlap with betting-rules on "verbal binding" queries.
+- Added to videos.json from the index manifest (date only): Sf3BKrj43Gc, xJBsNUVRVNE, 9l5P9EpGC90, bxrHOt7JRiI.
+- Rules hub has no "coming next" cards now. Add one when the next /rules/ page is picked.
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
