@@ -33,15 +33,15 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 ## Becoming a Dealer (`/career/`)
 | Page | Slug | Status | Sources |
 |---|---|---|---|
-| How to Become a Poker Dealer | how-to-become-a-poker-dealer | planned | RDS about/sales videos, TCH "best jobs" video, YT 24xOz2Ql8GM |
-| Poker Dealer Pay & Tips | poker-dealer-salary | planned | YT EohaVOVeYaY, GWonx0JkoNk, ZnJN9w0FpJo |
+| How to Become a Poker Dealer | how-to-become-a-poker-dealer | live | TCH "best jobs" livestream transcript (YT eGvFZuJVUOg), RDS About, YT index moments; primary video 24xOz2Ql8GM |
+| Poker Dealer Pay & Tips | poker-dealer-salary | live | TCH "best jobs" transcript, class transcripts (Feb 4/3, Jul 8/7, Feb 4/1), Jae interview clip, YT index moments; primary video EohaVOVeYaY (no transcript), lite ZnJN9w0FpJo |
 | How to Pass a Poker Dealer Audition | poker-dealer-audition | planned | "Preparing for your audition" 1-2, YT OM6V7mqC2ws, 0WJImAdhMFE |
 | A Day in the Life of a Poker Dealer | day-in-the-life | planned | YT 1YJ1hzgqX5U, Jaz interview |
 | From Chip Runner to Dealer | chip-runner-to-dealer | planned | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | planned | "Dealer or Floor" video, Jae Chung interviews |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
 
-## Ideas from the YouTube index (Nov 16, early: 16 of 346 videos indexed)
+## Ideas from the YouTube index (Nov 16: 16 of 346 videos indexed)
 Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
@@ -50,6 +50,8 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
+| When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
+| Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -82,6 +84,9 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/split-pots/
 - /deal/bomb-pots/
 - /deal/button-and-blinds/
+- /career/ (new hub)
+- /career/how-to-become-a-poker-dealer/
+- /career/poker-dealer-salary/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -108,6 +113,10 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Button-and-blinds (Nov 16): the "How the Button Moves" / missed-blinds course lessons (29-30) and Marc's straddle video aren't in tpd-knowledge, so the page is built from RS10 and class transcripts. No primary video; a short on buying the button or the dead button would be a strong one. Mississippi straddles and re-straddle action order are left out (no Marc source).
 - Button-and-blinds: seat-change posting threshold differs between sources (classes: skip three or more and you post; RS10: "more than three", sometimes two). Page gives three-or-more as the rule of thumb and says rooms vary. Marc to confirm.
 - Button-and-blinds: correction-log row 5_4_26 01:10:39 says a missed big blind posts just the big blind; the transcript shows $3. The row is wrong and wasn't used.
+- Career pages (Nov 16): the /career/ section and hub are now live; the home page "I want to become a poker dealer" card points to the become-a-dealer guide. The TCH "best jobs" livestream (eGvFZuJVUOg) is the main source for both pages but isn't embedded: its upload date couldn't be fetched (YouTube blocked again). Add it to videos.json and make it the primary video on how-to-become-a-poker-dealer once the YouTube index worker records its date.
+- Indexed livestreams were added to videos.json using the date and duration the index worker recorded in tpd-knowledge/youtube/manifest.csv (date only, no time).
+- Pay page leaves out on purpose: (1) Marc's own Texas hourly ("over $50 an hour overnight", RDS About) and the class figures about Dallas monthly earnings and base pay, because TCH asks dealers not to discuss tips; (2) "women usually earn more" (fkoWR0vVPuA 20:33), which is in a public video but felt risky without Marc. Marc to decide. The page does use the $19.55 tournament down-rate example from a July class, without naming the room or event. Marc to confirm that's OK.
+- Become-a-dealer page: the felony line follows Marc's livestream ("this job's not for you"). The in-house casino class is described in a student's words ("more of a weed-out"); Marc may want to add his own view.
 
 ## Needs Marc's OK (possibly sensitive; not published until he says yes)
 - (none yet)
