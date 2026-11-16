@@ -39,13 +39,13 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | A Day in the Life of a Poker Dealer | day-in-the-life | live | Class transcripts (Apr 2026 4/23, 4/24, 5/22), YT index casino-life/dealer-health moments; primary video 1YJ1hzgqX5U (no transcript, no claims drawn); Jaz interview not in tpd-knowledge |
 | From Chip Runner to Dealer | chip-runner-to-dealer | live | Cut clips "Chip runner duties/evals/best time" (= YT pUU3vsxozKE, 5bspxNfhXoQ, U2k30asqKVc), class transcripts (Oct 10_30, Jun 7_2, Jul 7_27, others), RDS About, YT index chip-runner moments; primary video 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | live | Full transcript of YT 3gj_bVVgr5A (Drop Box), TCH dual-rate clips (Marc's lines only), YT index floor-supervisor moments; primary video 3gj_bVVgr5A |
-| Remote Dealer School student stories | remote-school-stories | drafting | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
+| Remote Dealer School student stories | remote-school-stories | live | YT index testimonial/remote-school moments (Ljnk9aLZf2Y primary, fSP7Ats39DM, 3gj_bVVgr5A, w8RLdmVwZQo, GGnnQKhajUU, u1AgvH1MRvU, FrjgBD-P-3c, others); all students unnamed |
 
 ## Ideas from the YouTube index (Nov 17: 31 of 346 videos indexed)
 Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
-| Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | drafting | YT index tag dealer-health (27 moments so far) |
+| Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | live | Class transcripts + correction log (pitch/shuffle/chip tension, ganglion cyst, trigger finger, what-am-I-working-on), YT nue9a3vdjQg (primary; OT guest attributed), 3hFkBE9WHAw, g6iPq4pIX9A, X3Hdw_ffgQU |
 | Dealer burnout and the money mistakes that cause it | dealer-burnout | planned | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
@@ -94,6 +94,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /career/day-in-the-life/
 - /career/chip-runner-to-dealer/
 - /career/dealer-or-floor/
+- /career/remote-school-stories/
+- /career/dealer-health/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -133,6 +135,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Chip runner page (Nov 17 overnight): the interviewed TCH chip runner is unnamed. His statements are attributed to "the chip runner I interviewed", not to Marc. The Victor failed-audition detail is left out (still pending below). No pay, tip-out or tip figures used.
 - Dealer-or-floor page (Nov 17 overnight): the graduate in 3gj_bVVgr5A is unnamed and his casino isn't named. Left out: Marc's yearly-income comparison (57:09), the WSOP supervisor-pay exception, the guest's hours and pay, and Marc's own weekly-hours figures. The Jae Chung interview streams (SuZ54ctJ9QE, bx4KCd3s21w, BKCjvNCbKH0) aren't indexed yet; once they are, the floor page could embed a moment from one.
 - Added to videos.json from the index manifest (date only): 3gj_bVVgr5A, 8gl9bMAmC64.
+- Student stories page (Nov 16): no student names, per rule 3 (the plan said "Jacob & Chase, with consent"; rule 3 wins until Marc says otherwise). Employers of individual grads left off (no Commerce, Harrah's, Hard Rock). Left out: 3x-tuition earnings, tuition price, "aged out of tech", the grad's money comment (42:45). Practice table cost given as "around $100 to $150" because two streams differ (Ljnk9aLZf2Y 15:05 vs 9wsXu-0dGZA 7:56). One grad's earlier self-study is described as "learned from my material years ago" (index says self-paced course 2016-17, but the course dates from 2020). Added w8RLdmVwZQo to videos.json from the index manifest (date only).
+- Dealer health page (Nov 16): OT guest's workshop advice (90-90-90, neck/wrist stretches, grip aids) attributed to her, unnamed; co-host's carpal tunnel surgery left out. Marc's lower-back story is kept without the family detail. The g6iPq4pIX9A 54:01 lower-back tip is credited to "my show" (index doesn't say whether Marc or Mike said it).
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
@@ -145,3 +149,5 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
   - Become-a-dealer page: a Florida tribal casino turned down someone who passed the audition over $20,000+ of unpaid debt (Oct 2026 class, anonymous). Not pay, but it's from class and points at a type of employer in Florida. Keep or cut?
 - Audition page: in a class (Apr 2026, 5/11) Marc says he failed Victor's 2011 audition because his pot was on top of his muck, and Victor later became COO of Texas Card House. Great story for the pot-on-muck point. The page says "I failed someone in an audition for exactly this" without the name, since it's class-only and about Victor's audition. OK to name him?
 - Chip runner page: the two other chip runner videos aren't embedded, though they're public. In "What is a Poker Chip Runner Responsible For?" (pUU3vsxozKE), the TCH chip runner gives his base pay on camera. In U2k30asqKVc he gives his biggest tip. Rule 8 says don't publish what specific rooms pay, so 5bspxNfhXoQ is the primary video instead. OK to embed the other two? Also, 5bspxNfhXoQ has a brief remark about a former hire being "a very big gentleman" who quit after two days. The page text leaves it out, but it's in the embedded video. Fine?
+- Student stories page: the two grads in the hero video (Ljnk9aLZf2Y) are unnamed on the page but identifiable from the embedded video, next to Texas Card House Austin and a mildly unflattering detail (Marc took one to the dealer coordinator to get him off PLO games for a while; from public community stream u1AgvH1MRvU 1:25:08). Keep, or soften? Also: OK to name Jacob and Chase (they're named in the public video)?
+- Dealer health page: a 7_24_26 class story about a Dallas dealer Marc taught (a former partner) who got a ganglion cyst after a year of warnings. Left out (someone else's health + personal relationship). Use anonymously?
