@@ -9,3 +9,6 @@
   X-Robots-Tag: noindex
 /src/*
   X-Robots-Tag: noindex
+
+/downloads/*
+  X-Robots-Tag: noindex
