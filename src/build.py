@@ -47,7 +47,7 @@ GENERATED_DIRS = ["deal", "about", "career", "rules", "tools", "stories", "gear"
 SECTIONS = {
     "deal": {"name": "How to Deal", "path": "/deal/"},
     "career": {"name": "Becoming a Dealer", "path": "/career/"},
-    "rules": {"name": "Rulings", "path": "/rules/"},
+    "rules": {"name": "Poker Rules", "path": "/rules/"},
     "gear": {"name": "Gear", "path": "/gear/"},
     "about": {"name": "About", "path": "/about/marc-shumsker/"},
 }

@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha + mixed games live Nov 16; next: counting-bets, then /rules/)
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and the first /rules/ page live Nov 16; next: more /rules/ pages, then career ideas)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -57,14 +57,16 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
-| How to count down and announce large bets | counting-bets | drafting (Nov 16 evening extra run) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
+| How to count down and announce large bets | counting-bets | live (/deal/counting-bets/) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
 | Gambling and the poker dealer: EV, the house edge and money habits | dealers-and-gambling | planned | tags ev-life (34), gambling-industry (31); YT OZJjdOMiJE8, PIIX329cgG8 |
 | Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | planned | tag game-protection (62 moments), surveillance (13); fits /deal/ or /rules/ |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 | Page | Slug | Status | Sources |
 |---|---|---|---|
-| What happens when a player acts out of turn | acting-out-of-turn | drafting (Nov 16 evening extra run) | RS14, class transcripts, correction log, YT floor-calls moments |
+| What happens when a player acts out of turn | acting-out-of-turn | live | Class transcripts (Feb 3_11/3_16, Apr 5_4/5_6/5_20, Jun 7_29/7_31, Jul 8_12, Oct 10_19/11_13), RS8, RS14, RS15, TPD31, Mixed Games L10, YT W_B8yAuYz90 |
+| Exposed cards on the deal | exposed-cards | planned | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
+| Running it twice | running-it-twice | planned | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -108,6 +110,9 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /career/dealer-health/
 - /deal/how-to-deal-omaha/
 - /deal/mixed-games/
+- /deal/counting-bets/
+- /rules/ (new hub)
+- /rules/acting-out-of-turn/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -153,6 +158,10 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Mixed games page (Nov 16): built from Mixed Games L6-10 (2020, WSOP-guide based) + 2026 classes. Presented as "the WSOP way when I made my lessons" plus "rooms differ." Kept Marc's own doubt on badeucy's ace-high rule. HORSE isn't spelled out (no source spells it). No badeucy max-player count (not stated). Left out: all private/high-stakes game mentions, the forgot-to-burn-three-times story (names a pro and stakes, see Needs Marc's OK), the $1,000 tip joke, the "4/8 can make good money" line, the ante-in-turn example (speaker unclear), g6iPq4pIX9A moments (co-host may be speaking). Open questions for Marc: is a stud complete a raise (L6 says no; a Feb class said yes then "rusty"); seventh-street run-out order (L6 mixes burns first; a 2026 class deals first); stud/8 bring-in (L6 low card).
 - Added to videos.json from the index manifest (date only): RZWBGJbdNmw, -DAL7MATVzQ, zVGUID406f8, ijUC67F6qp8.
 - Deal hub "coming next" now shows Counting Down Large Bets (counting-bets, the next /deal/ page in the PRIORITY order).
+- Counting-bets page (Nov 16 extra run): built mostly from the counting livestream's index notes (84YDtS_VrN8, no transcript) plus RS3/5/11 and ~30 generalized class corrections; links making-change for the basics instead of repeating them. Left out: the livestream's $30-50/hr line, $650 price, rent/burnout story, "six-week" class mention, and "Dallas pots that size nearly every day" (named room). Nancy Bernstein stream moments not used (speaker unclear). "I'm going to need 2,200 more" was a student line Marc endorsed, so it's paraphrased.
+- /rules/ section (Nov 16 extra run): launched with acting-out-of-turn. The nav label is now "Poker Rules" instead of "Rulings" (build.py SECTIONS), since dealers explain rules and rulings are the floor's (rule 9). Marc's dedicated Lesson 28 (action out of turn / premature cards) is members-only with no transcript, so the page is built from class transcripts, where he says his view has softened since that lesson. The pot-limit "pot" out-of-turn exception keeps Marc's own hedge ("not 100% sure the whole poker world would agree"). Thin, so left out: heads-up specifics, bomb pots, verbal-vs-chips. Not used: g1p0ZkRcXtA 16:24 (Marc letting early bomb-pot folds go reads like a dealer decision), the class mention of a named pro friend.
+- Deal hub has no "coming next" cards now (all planned /deal/ pages are live). Add one if game-protection becomes a /deal/ page.
+- Added to videos.json from the index manifest (date only): 84YDtS_VrN8, g1p0ZkRcXtA, GCxAiNwRRq8, cRecW_w5I4Q, W_B8yAuYz90.
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
