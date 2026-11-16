@@ -501,6 +501,7 @@ def page_shell(meta, url, body_html, schema_graph, section):
 </main>
 {footer()}
 <script src="/assets/site.js?v={ASSET_VERSION}" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "5f325265caf240aabf0da79f32a64185"}}'></script>
 </body>
 </html>
 """
