@@ -35,8 +35,8 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 |---|---|---|---|
 | How to Become a Poker Dealer | how-to-become-a-poker-dealer | live | TCH "best jobs" livestream transcript (YT eGvFZuJVUOg), RDS About, YT index moments; primary video 24xOz2Ql8GM |
 | Poker Dealer Pay & Tips | poker-dealer-salary | live | TCH "best jobs" transcript, class transcripts (Feb 4/3, Jul 8/7, Feb 4/1), Jae interview clip, YT index moments; primary video EohaVOVeYaY (no transcript), lite ZnJN9w0FpJo |
-| How to Pass a Poker Dealer Audition | poker-dealer-audition | drafting | "Preparing for your audition" 1-2, YT OM6V7mqC2ws, 0WJImAdhMFE |
-| A Day in the Life of a Poker Dealer | day-in-the-life | drafting | YT 1YJ1hzgqX5U, Jaz interview |
+| How to Pass a Poker Dealer Audition | poker-dealer-audition | live | "Preparing for your audition" 1-2 (both members-only on YT, not embedded), class transcripts, correction log, YT index moments; shorts OM6V7mqC2ws, 0WJImAdhMFE |
+| A Day in the Life of a Poker Dealer | day-in-the-life | live | Class transcripts (Apr 2026 4/23, 4/24, 5/22), YT index casino-life/dealer-health moments; primary video 1YJ1hzgqX5U (no transcript, no claims drawn); Jaz interview not in tpd-knowledge |
 | From Chip Runner to Dealer | chip-runner-to-dealer | planned | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | planned | "Dealer or Floor" video, Jae Chung interviews |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
@@ -52,6 +52,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
 | When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
+| Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -87,6 +88,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /career/ (new hub)
 - /career/how-to-become-a-poker-dealer/
 - /career/poker-dealer-salary/
+- /career/poker-dealer-audition/
+- /career/day-in-the-life/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -118,6 +121,12 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Pay page (Nov 16): built only from public material (YouTube/livestreams) for money figures, per rule 8. Class-only items are in "Needs Marc's OK" below.
 - Become-a-dealer page: the felony line follows Marc's livestream ("this job's not for you"). The in-house casino class is described in a student's words ("more of a weed-out"); Marc may want to add his own view.
 
+- Audition page (Nov 16 overnight): no primary video. Both "Preparing for your audition" streams are members-only ("Marc Auditions Himself" is ukSgMuBTlwE; in the PLO mock audition Marc says it will be members-only), so they're used as sources only. QHs1V7U01-s ("Marc Speaks to All the Poker Dealing Students Out There Who Failed Their Auditions", public) and cgdzhCQ9e40 aren't indexed yet; once indexed, the failed-audition one could be a strong primary video. The two audition shorts are embedded without claims (not indexed).
+- Audition page: the re-audition advice ("if you're close, go for it, keep training while you wait") is Marc's answer on a pathway call (u1AgvH1MRvU 28:44), written generally.
+- Day-in-the-life page: posture (90-90-90) and chair-knob advice are credited to the occupational therapist guest (nue9a3vdjQg), and the lower-back tip to "my show", because the index doesn't say whether Marc or a guest said it. The planned dealer-health page should check those moments in the video and attribute properly.
+- eGvFZuJVUOg (TCH "best jobs" livestream) is now in videos.json (date from the index manifest). It can replace 24xOz2Ql8GM as the primary video on how-to-become-a-poker-dealer, as planned.
+- Added to videos.json from the index manifest (public, date only): w64M6jB6x-c, 9wsXu-0dGZA, u1AgvH1MRvU, eGvFZuJVUOg, EDme-XjMLRk, 3hFkBE9WHAw, GGnnQKhajUU, g6iPq4pIX9A, nue9a3vdjQg, ykGAwOUS6Zs.
+
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
 - Pay page: class figures for Washington (about $17 base, dealers about $50/hr), new dealers ~$30 and "$35 and up once fast", day vs night hours (10am-6pm dollar tippers, 8pm-7am better), and rooms capping hours at 30-32/week to avoid benefits (Feb 2026 class, 4/3). Left out; the page uses the public livestream versions instead.
@@ -127,3 +136,4 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Audit Nov 16 (rule 8): nothing about Marc's earnings, a named room's pay or private games found on the career pages. Two borderline items left up for Marc to decide:
   - Pay page: WSOP figures (new dealer ~$33-35/hr tournament-only, ~$12-13K for a summer, circuit 12 days = 1.5 months at an old job). All from public livestreams (FrjgBD-P-3c, XvgET6UTXOU), but the WSOP is arguably "a specific room." Keep or cut?
   - Become-a-dealer page: a Florida tribal casino turned down someone who passed the audition over $20,000+ of unpaid debt (Oct 2026 class, anonymous). Not pay, but it's from class and points at a type of employer in Florida. Keep or cut?
+- Audition page: in a class (Apr 2026, 5/11) Marc says he failed Victor's 2011 audition because his pot was on top of his muck, and Victor later became COO of Texas Card House. Great story for the pot-on-muck point. The page says "I failed someone in an audition for exactly this" without the name, since it's class-only and about Victor's audition. OK to name him?
