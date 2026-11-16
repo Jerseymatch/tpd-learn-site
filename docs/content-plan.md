@@ -2,7 +2,10 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16): do the "Becoming a Dealer" section next
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it
+Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
+
+## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
 Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`. **Never publish how much Marc makes, what specific rooms pay, or private games he has dealt (rule 8). Everything else from class and YouTube is fair game. Ask Marc about anything borderline via "Needs Marc's OK" below.**
 
 ## How to Deal (`/deal/`)
