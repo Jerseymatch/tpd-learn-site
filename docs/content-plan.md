@@ -37,11 +37,11 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | Poker Dealer Pay & Tips | poker-dealer-salary | live | TCH "best jobs" transcript, class transcripts (Feb 4/3, Jul 8/7, Feb 4/1), Jae interview clip, YT index moments; primary video EohaVOVeYaY (no transcript), lite ZnJN9w0FpJo |
 | How to Pass a Poker Dealer Audition | poker-dealer-audition | live | "Preparing for your audition" 1-2 (both members-only on YT, not embedded), class transcripts, correction log, YT index moments; shorts OM6V7mqC2ws, 0WJImAdhMFE |
 | A Day in the Life of a Poker Dealer | day-in-the-life | live | Class transcripts (Apr 2026 4/23, 4/24, 5/22), YT index casino-life/dealer-health moments; primary video 1YJ1hzgqX5U (no transcript, no claims drawn); Jaz interview not in tpd-knowledge |
-| From Chip Runner to Dealer | chip-runner-to-dealer | drafting | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
-| Dealer or Floor? | dealer-or-floor | drafting | "Dealer or Floor" video, Jae Chung interviews |
+| From Chip Runner to Dealer | chip-runner-to-dealer | live | Cut clips "Chip runner duties/evals/best time" (= YT pUU3vsxozKE, 5bspxNfhXoQ, U2k30asqKVc), class transcripts (Oct 10_30, Jun 7_2, Jul 7_27, others), RDS About, YT index chip-runner moments; primary video 5bspxNfhXoQ |
+| Dealer or Floor? | dealer-or-floor | live | Full transcript of YT 3gj_bVVgr5A (Drop Box), TCH dual-rate clips (Marc's lines only), YT index floor-supervisor moments; primary video 3gj_bVVgr5A |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
 
-## Ideas from the YouTube index (Nov 16: 16 of 346 videos indexed)
+## Ideas from the YouTube index (Nov 17: 31 of 346 videos indexed)
 Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
@@ -53,6 +53,8 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
+| How to count down and announce large bets | counting-bets | planned | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
+| Gambling and the poker dealer: EV, the house edge and money habits | dealers-and-gambling | planned | tags ev-life (34), gambling-industry (31); YT OZJjdOMiJE8, PIIX329cgG8 |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -90,6 +92,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /career/poker-dealer-salary/
 - /career/poker-dealer-audition/
 - /career/day-in-the-life/
+- /career/chip-runner-to-dealer/
+- /career/dealer-or-floor/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -126,6 +130,9 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Day-in-the-life page: posture (90-90-90) and chair-knob advice are credited to the occupational therapist guest (nue9a3vdjQg), and the lower-back tip to "my show", because the index doesn't say whether Marc or a guest said it. The planned dealer-health page should check those moments in the video and attribute properly.
 - eGvFZuJVUOg (TCH "best jobs" livestream) is now in videos.json (date from the index manifest). It can replace 24xOz2Ql8GM as the primary video on how-to-become-a-poker-dealer, as planned.
 - Added to videos.json from the index manifest (public, date only): w64M6jB6x-c, 9wsXu-0dGZA, u1AgvH1MRvU, eGvFZuJVUOg, EDme-XjMLRk, 3hFkBE9WHAw, GGnnQKhajUU, g6iPq4pIX9A, nue9a3vdjQg, ykGAwOUS6Zs.
+- Chip runner page (Nov 17 overnight): the interviewed TCH chip runner is unnamed. His statements are attributed to "the chip runner I interviewed", not to Marc. The Victor failed-audition detail is left out (still pending below). No pay, tip-out or tip figures used.
+- Dealer-or-floor page (Nov 17 overnight): the graduate in 3gj_bVVgr5A is unnamed and his casino isn't named. Left out: Marc's yearly-income comparison (57:09), the WSOP supervisor-pay exception, the guest's hours and pay, and Marc's own weekly-hours figures. The Jae Chung interview streams (SuZ54ctJ9QE, bx4KCd3s21w, BKCjvNCbKH0) aren't indexed yet; once they are, the floor page could embed a moment from one.
+- Added to videos.json from the index manifest (date only): 3gj_bVVgr5A, 8gl9bMAmC64.
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
@@ -137,3 +144,4 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
   - Pay page: WSOP figures (new dealer ~$33-35/hr tournament-only, ~$12-13K for a summer, circuit 12 days = 1.5 months at an old job). All from public livestreams (FrjgBD-P-3c, XvgET6UTXOU), but the WSOP is arguably "a specific room." Keep or cut?
   - Become-a-dealer page: a Florida tribal casino turned down someone who passed the audition over $20,000+ of unpaid debt (Oct 2026 class, anonymous). Not pay, but it's from class and points at a type of employer in Florida. Keep or cut?
 - Audition page: in a class (Apr 2026, 5/11) Marc says he failed Victor's 2011 audition because his pot was on top of his muck, and Victor later became COO of Texas Card House. Great story for the pot-on-muck point. The page says "I failed someone in an audition for exactly this" without the name, since it's class-only and about Victor's audition. OK to name him?
+- Chip runner page: the two other chip runner videos aren't embedded, though they're public. In "What is a Poker Chip Runner Responsible For?" (pUU3vsxozKE), the TCH chip runner gives his base pay on camera. In U2k30asqKVc he gives his biggest tip. Rule 8 says don't publish what specific rooms pay, so 5bspxNfhXoQ is the primary video instead. OK to embed the other two? Also, 5bspxNfhXoQ has a brief remark about a former hire being "a very big gentleman" who quit after two days. The page text leaves it out, but it's in the embedded video. Fine?
