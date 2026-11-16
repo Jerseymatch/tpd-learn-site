@@ -128,6 +128,37 @@ def fmt_dur(seconds):
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
 
 
+CHANNEL = json.load(open(os.path.join(SRC, "data", "channel.json"), encoding="utf-8"))
+
+
+def views_short(n):
+    # 1439044 -> "1.4M", 667819 -> "667K", 4991348 -> "4.9M+" style is applied by callers
+    if n >= 1_000_000:
+        return f"{int(n / 100_000) / 10:g}M"
+    if n >= 1_000:
+        return f"{int(n / 1_000)}K"
+    return str(n)
+
+
+def views_long(n):
+    m = n / 1_000_000
+    nxt = int(m) + 1
+    if nxt - m <= 0.02 * nxt:
+        return f"almost {nxt} million"
+    return f"over {int(m * 10) / 10:g} million"
+
+
+def stat(key):
+    n = CHANNEL["views"]
+    return {
+        "views_long": views_long(n),
+        "views_short": views_short(n) + "+",
+        "since": str(CHANNEL["since"]),
+        "years": str(date.today().year - CHANNEL["since"]),
+        "subs": CHANNEL["subscribers"],
+    }[key]
+
+
 def video_schema(vid):
     v = VIDEOS[vid]
     return {
@@ -139,6 +170,8 @@ def video_schema(vid):
         "duration": iso_duration(v["dur"]),
         "embedUrl": f"https://www.youtube.com/embed/{vid}",
         "contentUrl": f"https://www.youtube.com/watch?v={vid}",
+        **({"interactionStatistic": {"@type": "InteractionCounter", "interactionType": {"@type": "WatchAction"},
+                                     "userInteractionCount": v["views"]}} if v.get("views") else {}),
     }
 
 
@@ -148,7 +181,8 @@ def render_video(vid, primary, used):
     used.append(vid)
     v = VIDEOS[vid]
     title = e(v["title"])
-    cap = f'<figcaption>{title} <span class="dur">{fmt_dur(v["dur"])}</span></figcaption>'
+    vw = f' <span class="views">{views_short(v["views"])} views on YouTube</span>' if v.get("views", 0) >= 10000 else ""
+    cap = f'<figcaption>{title} <span class="dur">{fmt_dur(v["dur"])}</span>{vw}</figcaption>'
     if primary:
         frame = (
             f'<div class="vframe"><iframe src="https://www.youtube-nocookie.com/embed/{vid}?rel=0" '
@@ -299,11 +333,11 @@ def render_rail(section, campaign, hook=None, course_line=None):
         '<aside class="rail" aria-label="Learn with Marc"><div class="rail-in">'
         '<div class="rail-card rail-school">'
         '<div class="rail-who"><img src="/assets/marc.jpg" alt="Marc Shumsker" width="44" height="44" loading="lazy">'
-        '<p><strong>Marc Shumsker</strong><span>10,000+ dealers trained</span></p></div>'
+        f'<p><strong>Marc Shumsker</strong><span>{views_short(CHANNEL["views"])}+ YouTube views since {CHANNEL["since"]}</span><span>10,000+ dealers trained</span></p></div>'
         f'<p class="rail-title">{e(hook)}</p>'
         '<p class="rail-what">That&rsquo;s what <strong>Remote Dealer School</strong> is: my live class on Zoom.</p>'
         '<ul class="rail-list">'
-        '<li>6 weeks, in a small group, live with me</li>'
+        '<li>8 weeks, in a small group, live with me</li>'
         '<li>You deal on camera and I correct you in real time</li>'
         '<li>Every class is recorded, so you can rewatch your corrections</li>'
         '<li>The last week covers getting hired</li>'
@@ -359,6 +393,7 @@ def process_body(body, campaign):
     body = re.sub(r"\[\[cta (\w+)\]\]", lambda m: render_cta(m.group(1), campaign), body)
     body = re.sub(r"\[\[gear ([^\]]+)\]\]", lambda m: render_gear(m.group(1), campaign), body)
     body = body.replace("[[storefront]]", e(GEAR["_storefront"]))
+    body = re.sub(r"\[\[stat (\w+)\]\]", lambda m: stat(m.group(1)), body)
     body = add_heading_ids(body)
     body = body.replace("[[toc]]", build_toc(body))
     return body, used
@@ -499,7 +534,8 @@ def author_box():
         '<aside class="author-box"><img src="/assets/marc.jpg" alt="Marc Shumsker" width="96" height="96" loading="lazy" onerror="this.remove()">'
         '<div><p class="ab-name">Written by Marc Shumsker</p>'
         "<p>I started dealing in 2007 and have worked as a dealer, floor supervisor and shift manager in Washington, Florida and Texas. "
-        "As a shift manager I ran over 1,000 live dealer auditions and did the hiring. I started True Poker Dealer in 2012, and I still "
+        "As a shift manager I ran over 1,000 live dealer auditions and did the hiring. I started True Poker Dealer on YouTube in 2012, "
+        f"where my lessons now have {views_long(CHANNEL['views'])} views, and I still "
         'pick up dealing shifts in Texas. <a href="/about/marc-shumsker/">More about me</a></p></div></aside>'
     )
 
