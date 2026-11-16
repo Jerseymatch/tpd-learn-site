@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha + mixed games live Nov 16; next: counting-bets, then /rules/)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -30,8 +30,8 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | Split Pots & Quartering | split-pots | live | TPD42, YT PUQG-WTBtDM, corrections |
 | Bomb Pots (Hold'em & PLO, double board) | bomb-pots | live | TPD41, PLO bomb lesson, YT JdpiQlDOf94 / TjIUpqpmXRM |
 | Straddles, Missed Blinds & the Button | button-and-blinds | live | RS10 + class transcripts (Feb/Apr/Jun/Jul/Oct 2026); Lessons 29-30 not in tpd-knowledge |
-| Dealing Omaha & Reading Omaha Hands | how-to-deal-omaha | planned | Mixed games L1-5, YT y-k3F9U5vio |
-| Stud, Draw & Mixed Games | mixed-games | planned | Mixed games L6-10 |
+| Dealing Omaha & Reading Omaha Hands | how-to-deal-omaha | live | Mixed games L1-5 (L2-5 members-only, not embedded), class transcripts + correction log, YT y-k3F9U5vio (primary), RZWBGJbdNmw, fSP7Ats39DM, w64M6jB6x-c, fkoWR0vVPuA moments |
+| Stud, Draw & Mixed Games | mixed-games | live | Mixed games L6-10 (members-only, not embedded), class transcripts (Feb/Apr/Jun/Jul/Oct 2026), correction log, YT -DAL7MATVzQ, ijUC67F6qp8, zVGUID406f8 moments; no primary video |
 
 ## Becoming a Dealer (`/career/`)
 | Page | Slug | Status | Sources |
@@ -59,6 +59,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
 | How to count down and announce large bets | counting-bets | planned | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
 | Gambling and the poker dealer: EV, the house edge and money habits | dealers-and-gambling | planned | tags ev-life (34), gambling-industry (31); YT OZJjdOMiJE8, PIIX329cgG8 |
+| Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | planned | tag game-protection (62 moments), surveillance (13); fits /deal/ or /rules/ |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -100,6 +101,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /career/dealer-or-floor/
 - /career/remote-school-stories/
 - /career/dealer-health/
+- /deal/how-to-deal-omaha/
+- /deal/mixed-games/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -141,6 +144,10 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Added to videos.json from the index manifest (date only): 3gj_bVVgr5A, 8gl9bMAmC64.
 - Student stories page (Nov 16): no student names, per rule 3 (the plan said "Jacob & Chase, with consent"; rule 3 wins until Marc says otherwise). Employers of individual grads left off (no Commerce, Harrah's, Hard Rock). Left out: 3x-tuition earnings, tuition price, "aged out of tech", the grad's money comment (42:45). Practice table cost given as "around $100 to $150" because two streams differ (Ljnk9aLZf2Y 15:05 vs 9wsXu-0dGZA 7:56). One grad's earlier self-study is described as "learned from my material years ago" (index says self-paced course 2016-17, but the course dates from 2020). Added w8RLdmVwZQo to videos.json from the index manifest (date only).
 - Dealer health page (Nov 16): OT guest's workshop advice (90-90-90, neck/wrist stretches, grip aids) attributed to her, unnamed; co-host's carpal tunnel surgery left out. Marc's lower-back story is kept without the family detail. The g6iPq4pIX9A 54:01 lower-back tip is credited to "my show" (index doesn't say whether Marc or Mike said it).
+- Omaha page (Nov 16): built from Mixed Games L1-5 + class corrections. Primary video is L1 (y-k3F9U5vio); L2-5 are members-only so only quoted. Framing: L1/L2 frame the winning hand, a 2026 class says you don't have to in Omaha; page says you don't have to, "if you need to, you can." Telling a player the pot: page says pot limit only, can differ room to room. Rounding: "loose change rounds up," room-dependent (L4 floats $5 rounding in 1/2; classes say always round up / true pot in 2-2). Left out: L5's 640x4 slip, the 2020 "PL is almost never hi-lo" and "last dealt in 2016" lines, the $25-40/hr remark, named Aria/Seminole people, the 50/100 PLO game (unclear if private). Didn't embed u1AgvH1MRvU 1:02:32 (grad may be on screen at the start). Marc to confirm the framing default.
+- Mixed games page (Nov 16): built from Mixed Games L6-10 (2020, WSOP-guide based) + 2026 classes. Presented as "the WSOP way when I made my lessons" plus "rooms differ." Kept Marc's own doubt on badeucy's ace-high rule. HORSE isn't spelled out (no source spells it). No badeucy max-player count (not stated). Left out: all private/high-stakes game mentions, the forgot-to-burn-three-times story (names a pro and stakes, see Needs Marc's OK), the $1,000 tip joke, the "4/8 can make good money" line, the ante-in-turn example (speaker unclear), g6iPq4pIX9A moments (co-host may be speaking). Open questions for Marc: is a stud complete a raise (L6 says no; a Feb class said yes then "rusty"); seventh-street run-out order (L6 mixes burns first; a 2026 class deals first); stud/8 bring-in (L6 low card).
+- Added to videos.json from the index manifest (date only): RZWBGJbdNmw, -DAL7MATVzQ, zVGUID406f8, ijUC67F6qp8.
+- Deal hub "coming next" now shows Counting Down Large Bets (counting-bets, the next /deal/ page in the PRIORITY order).
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
@@ -154,4 +161,5 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Audition page: in a class (Apr 2026, 5/11) Marc says he failed Victor's 2011 audition because his pot was on top of his muck, and Victor later became COO of Texas Card House. Great story for the pot-on-muck point. The page says "I failed someone in an audition for exactly this" without the name, since it's class-only and about Victor's audition. OK to name him?
 - Chip runner page: the two other chip runner videos aren't embedded, though they're public. In "What is a Poker Chip Runner Responsible For?" (pUU3vsxozKE), the TCH chip runner gives his base pay on camera. In U2k30asqKVc he gives his biggest tip. Rule 8 says don't publish what specific rooms pay, so 5bspxNfhXoQ is the primary video instead. OK to embed the other two? Also, 5bspxNfhXoQ has a brief remark about a former hire being "a very big gentleman" who quit after two days. The page text leaves it out, but it's in the embedded video. Fine?
 - Student stories page: the two grads in the hero video (Ljnk9aLZf2Y) are unnamed on the page but identifiable from the embedded video, next to Texas Card House Austin and a mildly unflattering detail (Marc took one to the dealer coordinator to get him off PLO games for a while; from public community stream u1AgvH1MRvU 1:25:08). Keep, or soften? Also: OK to name Jacob and Chase (they're named in the public video)?
+- Mixed games page: Lesson 8's story of forgetting to burn three times the first time Marc dealt a high-stakes mixed game is a great "slow down" example, but it names a well-known pro and the stakes, and may have been a private game. Use it without the name and stakes?
 - Dealer health page: a 7_24_26 class story about a Dallas dealer Marc taught (a former partner) who got a ganglion cyst after a year of warnings. Left out (someone else's health + personal relationship). Use anonymously?
