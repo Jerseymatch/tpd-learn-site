@@ -37,8 +37,8 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | Poker Dealer Pay & Tips | poker-dealer-salary | live | TCH "best jobs" transcript, class transcripts (Feb 4/3, Jul 8/7, Feb 4/1), Jae interview clip, YT index moments; primary video EohaVOVeYaY (no transcript), lite ZnJN9w0FpJo |
 | How to Pass a Poker Dealer Audition | poker-dealer-audition | live | "Preparing for your audition" 1-2 (both members-only on YT, not embedded), class transcripts, correction log, YT index moments; shorts OM6V7mqC2ws, 0WJImAdhMFE |
 | A Day in the Life of a Poker Dealer | day-in-the-life | live | Class transcripts (Apr 2026 4/23, 4/24, 5/22), YT index casino-life/dealer-health moments; primary video 1YJ1hzgqX5U (no transcript, no claims drawn); Jaz interview not in tpd-knowledge |
-| From Chip Runner to Dealer | chip-runner-to-dealer | planned | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
-| Dealer or Floor? | dealer-or-floor | planned | "Dealer or Floor" video, Jae Chung interviews |
+| From Chip Runner to Dealer | chip-runner-to-dealer | drafting | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
+| Dealer or Floor? | dealer-or-floor | drafting | "Dealer or Floor" video, Jae Chung interviews |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
 
 ## Ideas from the YouTube index (Nov 16: 16 of 346 videos indexed)
