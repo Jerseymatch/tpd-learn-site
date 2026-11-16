@@ -27,7 +27,8 @@ He has worked in casinos since 2007: blackjack and table games first, then poker
 - **Video metadata** (title, upload date, duration) is in `src/data/videos.json`. To add a video, fetch its real upload date and duration from YouTube first. Never guess dates.
 
 ## How to build a page (the pipeline)
-1. **Pick the next page** from `docs/content-plan.md`.
+0. **Find new pages (Marc's ask, Nov 16):** the goal is to turn everything Marc has ever taught into pages. At the start of each run, skim `tpd-knowledge/youtube/topics.md`. Any topic with lots of moments and no page (or no planned row) gets a new row under "Ideas from the YouTube index" in the content plan.
+1. **Pick the next page** from `docs/content-plan.md`. Follow any PRIORITY note at the top.
 2. **Gather sources.** Read the main lesson transcript in full, then search the correction log and class transcripts for the topic. Write a short source brief (claims → where they came from) in your scratch space.
 3. **Draft** `src/pages/<section>/<slug>.html` following the template below.
 4. **Independent fact check.** Spawn a separate agent that hasn't seen your draft process. Give it the draft and the source files, and have it list every claim that isn't supported by the sources, or that contradicts them. Fix or cut each one. This is required. The pages carry Marc's name.

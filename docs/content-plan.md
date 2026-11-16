@@ -2,6 +2,9 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
+## PRIORITY (Marc, Nov 16): do the "Becoming a Dealer" section next
+Write the career pages below before continuing How to Deal (Omaha, mixed games). These are buyer-intent searches. For every career page, mine `tpd-knowledge/youtube/topics.md` and `youtube/index/` (tags such as career, getting-hired, audition, pay, hourly-vs-tips, chip-runner, floor-supervisor, burnout, money-mindset, dealer-health, wsop, texas-card-house, remote-school, testimonial), embed the best public `{embed: yes}` moments with `[[moment]]`, and end with `[[cta school]]` or `[[cta call]]`.
+
 ## How to Deal (`/deal/`)
 | Page | Slug | Status | Sources |
 |---|---|---|---|
@@ -37,6 +40,16 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | From Chip Runner to Dealer | chip-runner-to-dealer | planned | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | planned | "Dealer or Floor" video, Jae Chung interviews |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
+
+## Ideas from the YouTube index (Nov 16, early: 16 of 346 videos indexed)
+Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
+| Page idea | Slug | Status | Sources |
+|---|---|---|---|
+| Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | planned | YT index tag dealer-health (27 moments so far) |
+| Dealer burnout and the money mistakes that cause it | dealer-burnout | planned | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
+| Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
+| What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
+| Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
