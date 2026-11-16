@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and the first /rules/ page live Nov 16; next: more /rules/ pages, then career ideas)
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice live Nov 16; next: calling-the-floor as a /rules/ page, then more /rules/ topics, then career ideas)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -45,7 +45,7 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | Remote Dealer School student stories | remote-school-stories | live | YT index testimonial/remote-school moments (Ljnk9aLZf2Y primary, fSP7Ats39DM, 3gj_bVVgr5A, w8RLdmVwZQo, GGnnQKhajUU, u1AgvH1MRvU, FrjgBD-P-3c, others); all students unnamed |
 | Your First 6 Months as a Poker Dealer | first-six-months | ON HOLD: do not write. Marc (Nov 16) wants this as a paid product ($49.99 one-time, with trainings) that he builds with Claude first; a free site page may follow later as its teaser, only once Marc and Claude plan it together. | Marc: "so much learning happens on the job after someone passes an audition." A guide to advancing after you're hired: every room is different, take notes, be your own teacher, 90-day evaluation, attendance/points, speed over the first months, building regulars, early outs, learning Omaha/mixed games, going toward floor. Sources: become-a-dealer "first months" section sources, class transcripts (search "first day", "90 days", "new room", "tablet"), correction log rows about habits on the job, YT index tags career/casino-life/attendance/getting-hired. Different from audition prep: this is what the audition doesn't test. |
 
-## Ideas from the YouTube index (Nov 17: 31 of 346 videos indexed)
+## Ideas from the YouTube index (Nov 16: 71 videos indexed)
 Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
@@ -59,14 +59,16 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
 | How to count down and announce large bets | counting-bets | live (/deal/counting-bets/) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
 | Gambling and the poker dealer: EV, the house edge and money habits | dealers-and-gambling | planned | tags ev-life (34), gambling-industry (31); YT OZJjdOMiJE8, PIIX329cgG8 |
-| Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | planned | tag game-protection (62 moments), surveillance (13); fits /deal/ or /rules/ |
+| Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | planned | tag game-protection (79 moments), surveillance (17); fits /deal/ or /rules/ |
+| How to run a home poker game (dealer's view) (Nov 16 idea) | home-games | planned | tag home-games (53 moments); Lesson 31; fits Stories & home games; avoid licensing/legal claims (see rake follow-up) |
+| Showdown disputes: tabled hands, mucked winners, slow rolls | showdown-disputes | planned | tags showdown (41), floor-calls (100); YT fieG5mvinQs 1:26:04, EWnALewzuUc 1:06:10; fits /rules/ |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 | Page | Slug | Status | Sources |
 |---|---|---|---|
 | What happens when a player acts out of turn | acting-out-of-turn | live | Class transcripts (Feb 3_11/3_16, Apr 5_4/5_6/5_20, Jun 7_29/7_31, Jul 8_12, Oct 10_19/11_13), RS8, RS14, RS15, TPD31, Mixed Games L10, YT W_B8yAuYz90 |
-| Exposed cards on the deal | exposed-cards | planned | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
-| Running it twice | running-it-twice | planned | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
+| Exposed cards on the deal | exposed-cards | live | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
+| Running it twice | running-it-twice | live | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -113,6 +115,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/counting-bets/
 - /rules/ (new hub)
 - /rules/acting-out-of-turn/
+- /rules/exposed-cards/
+- /rules/running-it-twice/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -162,6 +166,9 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /rules/ section (Nov 16 extra run): launched with acting-out-of-turn. The nav label is now "Poker Rules" instead of "Rulings" (build.py SECTIONS), since dealers explain rules and rulings are the floor's (rule 9). Marc's dedicated Lesson 28 (action out of turn / premature cards) is members-only with no transcript, so the page is built from class transcripts, where he says his view has softened since that lesson. The pot-limit "pot" out-of-turn exception keeps Marc's own hedge ("not 100% sure the whole poker world would agree"). Thin, so left out: heads-up specifics, bomb pots, verbal-vs-chips. Not used: g1p0ZkRcXtA 16:24 (Marc letting early bomb-pot folds go reads like a dealer decision), the class mention of a named pro friend.
 - Deal hub has no "coming next" cards now (all planned /deal/ pages are live). Add one if game-protection becomes a /deal/ page.
 - Added to videos.json from the index manifest (date only): 84YDtS_VrN8, g1p0ZkRcXtA, GCxAiNwRRq8, cRecW_w5I4Q, W_B8yAuYz90.
+- Exposed-cards page (Nov 16): goes beyond /deal/misdeals/ and the pitch page with the player-flips-own-card rule (6_3_26c), heads-up/3+/all-in flipping (7_27_26_June, 5_4_26), tournaments = floor call (8_19_26_June), premature cards = always a floor call (8_7_26_June, W_B8yAuYz90), and handling habits. Moments embedded: eSMeQhB4HzQ 41:52, fieG5mvinQs 1:18:11 (both added to videos.json, date from the index manifest). Not used: EWnALewzuUc 1:06:10 (embed: maybe), R_vOQHJ3RB0 50:49 (criticizes named people). The WSOP "rolling the deck is an automatic no" line was a student's question Marc confirmed; page says "some rooms, the World Series among them."
+- Running-it-twice page (Nov 16): built from ~25 class transcripts (Apr-Oct 2026), Lesson 32 and RZWBGJbdNmw/EWnALewzuUc index notes. Names Texas Card House policies (thumbs up for 3+ players, using the bottom card, Dallas floor call when the main says once) as Marc described them; Marc says Austin may differ. Left out: the house's hourly dollar figure (8_24_26_p1), the "pretend you didn't hear the all in" shortcut (5_26_26), a student's room name, Marc's pocket-kings story (stakes). No primary video (RZWBGJbdNmw moments only); a short on burning for two boards would be a strong one. Added EWnALewzuUc to videos.json (manifest date).
+- Rules hub "coming next" now shows When to Call the Floor (calling-the-floor, moved toward /rules/).
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
