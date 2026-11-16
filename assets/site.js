@@ -4,7 +4,7 @@ document.addEventListener("click", function (ev) {
   if (!a || ev.metaKey || ev.ctrlKey || ev.shiftKey) return;
   ev.preventDefault();
   var f = document.createElement("iframe");
-  f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-yt") + "?autoplay=1&rel=0";
+  f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-yt") + "?autoplay=1&rel=0" + (a.getAttribute("data-start") ? "&start=" + a.getAttribute("data-start") : "");
   f.title = a.getAttribute("aria-label") || "YouTube video";
   f.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen";
   f.allowFullscreen = true;

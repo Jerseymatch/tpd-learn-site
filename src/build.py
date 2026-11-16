@@ -15,6 +15,8 @@ deal/how-to-shuffle-cards/index.html.
 Shortcodes:
     [[video ID]]          primary video: real lazy-loaded embed + VideoObject schema
     [[lite ID]]           secondary video: click-to-load facade + VideoObject schema
+    [[moment ID M:SS | caption]]  click-to-load facade that starts at that moment of a long video
+                          (livestream teaching moments; caption optional)
     [[shorts ID ID ...]]  row of vertical YouTube Shorts facades
     [[cta KEY]]           call to action block (course | school | free | call)
     [[toc]]               table of contents built from the page's <h2 id=...> headings
@@ -162,6 +164,30 @@ def render_video(vid, primary, used):
     return f'<figure class="video">{frame}{cap}</figure>'
 
 
+def to_sec(ts):
+    sec = 0
+    for part in ts.split(":"):
+        sec = sec * 60 + int(part)
+    return sec
+
+
+def render_moment(vid, ts, caption, used):
+    if vid not in VIDEOS:
+        sys.exit(f"Unknown video id {vid} - add it to src/data/videos.json")
+    used.append(vid)
+    v = VIDEOS[vid]
+    title = e(v["title"])
+    start = to_sec(ts)
+    cap = e(caption.strip()) if caption and caption.strip() else f"From my video: {title}"
+    frame = (
+        f'<a class="vframe lite" href="https://www.youtube.com/watch?v={vid}&amp;t={start}s" data-yt="{vid}" data-start="{start}" '
+        f'aria-label="Play from {ts}: {title}">'
+        f'<img src="https://i.ytimg.com/vi/{vid}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">'
+        f'<span class="play" aria-hidden="true"></span></a>'
+    )
+    return f'<figure class="video moment">{frame}<figcaption>{cap} <span class="dur">starts at {ts}</span></figcaption></figure>'
+
+
 def render_shorts(ids, used):
     items = []
     for vid in ids:
@@ -238,6 +264,8 @@ def process_body(body, campaign):
     used = []
     body = re.sub(r"\[\[video ([\w-]{11})\]\]", lambda m: render_video(m.group(1), True, used), body)
     body = re.sub(r"\[\[lite ([\w-]{11})\]\]", lambda m: render_video(m.group(1), False, used), body)
+    body = re.sub(r"\[\[moment ([\w-]{11}) (\d+(?::\d\d){1,2})(?:\s*\|([^\]]*))?\]\]",
+                  lambda m: render_moment(m.group(1), m.group(2), m.group(3), used), body)
     body = re.sub(r"\[\[shorts ([\w\- ]+)\]\]", lambda m: render_shorts(m.group(1).split(), used), body)
     body = re.sub(r"\[\[cta (\w+)\]\]", lambda m: render_cta(m.group(1), campaign), body)
     body = re.sub(r"\[\[gear ([^\]]+)\]\]", lambda m: render_gear(m.group(1), campaign), body)
