@@ -115,8 +115,12 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Button-and-blinds: correction-log row 5_4_26 01:10:39 says a missed big blind posts just the big blind; the transcript shows $3. The row is wrong and wasn't used.
 - Career pages (Nov 16): the /career/ section and hub are now live; the home page "I want to become a poker dealer" card points to the become-a-dealer guide. The TCH "best jobs" livestream (eGvFZuJVUOg) is the main source for both pages but isn't embedded: its upload date couldn't be fetched (YouTube blocked again). Add it to videos.json and make it the primary video on how-to-become-a-poker-dealer once the YouTube index worker records its date.
 - Indexed livestreams were added to videos.json using the date and duration the index worker recorded in tpd-knowledge/youtube/manifest.csv (date only, no time).
-- Pay page leaves out on purpose: (1) Marc's own Texas hourly ("over $50 an hour overnight", RDS About) and the class figures about Dallas monthly earnings and base pay, because TCH asks dealers not to discuss tips; (2) "women usually earn more" (fkoWR0vVPuA 20:33), which is in a public video but felt risky without Marc. Marc to decide. The page does use the $19.55 tournament down-rate example from a July class, without naming the room or event. Marc to confirm that's OK.
+- Pay page (Nov 16): built only from public material (YouTube/livestreams) for money figures, per rule 8. Class-only items are in "Needs Marc's OK" below.
 - Become-a-dealer page: the felony line follows Marc's livestream ("this job's not for you"). The in-house casino class is described in a student's words ("more of a weed-out"); Marc may want to add his own view.
 
 ## Needs Marc's OK (possibly sensitive; not published until he says yes)
-- (none yet)
+- Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
+- Pay page: class figures for Washington (about $17 base, dealers about $50/hr), new dealers ~$30 and "$35 and up once fast", day vs night hours (10am-6pm dollar tippers, 8pm-7am better), and rooms capping hours at 30-32/week to avoid benefits (Feb 2026 class, 4/3). Left out; the page uses the public livestream versions instead.
+- Pay page: the $19.55 tournament down-rate worked example (~$32/hr tournament-only) from a July 2026 class about a specific event. Left out; the page uses the public WSOP figure ($33-35/hr).
+- Pay page: "women usually earn more in tips" (public livestream fkoWR0vVPuA 20:33). Public, but left out as a judgment call. Marc to say if he wants it.
+- Class talk about specific rooms' monthly earnings and base pay (Dallas) and the "they ask us not to talk about this" passage: never used.
