@@ -70,7 +70,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Exposed cards on the deal | exposed-cards | live | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
 | Running it twice | running-it-twice | live | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
 | When to call the floor | calling-the-floor | drafting | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
-| String bets & verbal declarations (what's binding) | string-bets | drafting | RS14, TPD31, class transcripts, correction log, YT betting-rules moments |
+| Verbal is binding: what counts as your action | verbal-declarations | drafting (string bets themselves stay on /deal/betting-rules/) | RS14, class transcripts, correction log, YT betting-rules moments |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
