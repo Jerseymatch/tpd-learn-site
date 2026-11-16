@@ -274,6 +274,11 @@ RAIL_HOOK = {
 def school_when(campaign, content):
     nc = (SCHOOL.get("next_class") or "").strip()
     link = e(utm(MAIN + "/remote-dealer-school", campaign, content + "-date"))
+    iso = (SCHOOL.get("next_class_iso") or "").strip()
+    if nc and iso:
+        # site.js swaps this for the plain link once the date has passed, so it can't go stale.
+        return (f'<p class="when" data-until="{e(iso)}" data-fallback="See when the next class starts &rarr;" data-href="{link}">'
+                f'Next class starts <strong>{e(nc)}</strong>. <a href="{link}">Details</a></p>')
     if nc:
         return f'<p class="when">Next class starts <strong>{e(nc)}</strong>. <a href="{link}">Details</a></p>'
     return f'<p class="when"><a href="{link}">See when the next class starts &rarr;</a></p>'

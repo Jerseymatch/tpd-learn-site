@@ -1,5 +1,6 @@
 {
-  "_note": "next_class is copied from the truepokerdealer.com homepage by a scheduled reader. Leave empty to show the plain 'see when the next class starts' link.",
+  "_note": "next_class (e.g. 'January 11') and next_class_iso (YYYY-MM-DD) are copied from the truepokerdealer.com homepage by a scheduled reader. Once next_class_iso has passed, the page shows the plain link automatically. Leave both empty to always show the plain link.",
   "next_class": "January 11",
-  "checked": "2026-11-15"
+  "checked": "2026-11-15",
+  "next_class_iso": "2027-01-11"
 }
