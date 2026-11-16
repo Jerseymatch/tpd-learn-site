@@ -39,13 +39,13 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 | A Day in the Life of a Poker Dealer | day-in-the-life | live | Class transcripts (Apr 2026 4/23, 4/24, 5/22), YT index casino-life/dealer-health moments; primary video 1YJ1hzgqX5U (no transcript, no claims drawn); Jaz interview not in tpd-knowledge |
 | From Chip Runner to Dealer | chip-runner-to-dealer | live | Cut clips "Chip runner duties/evals/best time" (= YT pUU3vsxozKE, 5bspxNfhXoQ, U2k30asqKVc), class transcripts (Oct 10_30, Jun 7_2, Jul 7_27, others), RDS About, YT index chip-runner moments; primary video 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | live | Full transcript of YT 3gj_bVVgr5A (Drop Box), TCH dual-rate clips (Marc's lines only), YT index floor-supervisor moments; primary video 3gj_bVVgr5A |
-| Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
+| Remote Dealer School student stories | remote-school-stories | drafting | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
 
 ## Ideas from the YouTube index (Nov 17: 31 of 346 videos indexed)
 Topics Marc covers again and again in livestreams, with no page yet. Each one becomes a career page once there's enough material. The writer adds new rows here as the index grows.
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
-| Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | planned | YT index tag dealer-health (27 moments so far) |
+| Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | drafting | YT index tag dealer-health (27 moments so far) |
 | Dealer burnout and the money mistakes that cause it | dealer-burnout | planned | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
