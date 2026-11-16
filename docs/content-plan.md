@@ -35,8 +35,8 @@ Write the career pages below before continuing How to Deal (Omaha, mixed games).
 |---|---|---|---|
 | How to Become a Poker Dealer | how-to-become-a-poker-dealer | live | TCH "best jobs" livestream transcript (YT eGvFZuJVUOg), RDS About, YT index moments; primary video 24xOz2Ql8GM |
 | Poker Dealer Pay & Tips | poker-dealer-salary | live | TCH "best jobs" transcript, class transcripts (Feb 4/3, Jul 8/7, Feb 4/1), Jae interview clip, YT index moments; primary video EohaVOVeYaY (no transcript), lite ZnJN9w0FpJo |
-| How to Pass a Poker Dealer Audition | poker-dealer-audition | planned | "Preparing for your audition" 1-2, YT OM6V7mqC2ws, 0WJImAdhMFE |
-| A Day in the Life of a Poker Dealer | day-in-the-life | planned | YT 1YJ1hzgqX5U, Jaz interview |
+| How to Pass a Poker Dealer Audition | poker-dealer-audition | drafting | "Preparing for your audition" 1-2, YT OM6V7mqC2ws, 0WJImAdhMFE |
+| A Day in the Life of a Poker Dealer | day-in-the-life | drafting | YT 1YJ1hzgqX5U, Jaz interview |
 | From Chip Runner to Dealer | chip-runner-to-dealer | planned | YT pUU3vsxozKE, U2k30asqKVc, 5bspxNfhXoQ |
 | Dealer or Floor? | dealer-or-floor | planned | "Dealer or Floor" video, Jae Chung interviews |
 | Remote Dealer School student stories | remote-school-stories | planned | YT Ljnk9aLZf2Y (Jacob & Chase, with consent) |
