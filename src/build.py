@@ -382,6 +382,22 @@ MANUAL_BOX = (
 )
 
 
+
+FEEDBACK_FORM = "https://links.truepokerdealer.com/widget/form/N31JbwnZpBlvpR5Fuq7o"
+
+def feedback_box(url):
+    """Reader feedback at the end of every guide. Submissions land in Ivorey (form
+    'Reader Feedback (learn site)'); a scheduled worker reads them, drafts a reply and
+    any site change, and asks Marc. See tpd-knowledge/feedback/README.md."""
+    src = FEEDBACK_FORM + "?feedback_page=" + url
+    return (
+        '<details class="feedback-box"><summary><span class="kicker">Deal it differently where you work?</span>'
+        '<strong>Tell me what you see differently.</strong> Rooms do things their own way, and if you think I got '
+        'something wrong, I want to hear it. I read every one.</summary>'
+        f'<iframe data-src="{src}" title="Send Marc your feedback" loading="lazy" style="width:100%;height:560px;border:none"></iframe>'
+        '<script src="https://links.truepokerdealer.com/js/form_embed.js" defer></script></details>'
+    )
+
 def insert_manual_box(body):
     m = re.search(r'<h2 id="[^"]*"[^>]*>\s*Common questions', body)
     if m:
@@ -593,7 +609,7 @@ def build_page(relpath, meta, raw_body, all_pages):
             body = insert_manual_box(body)
         body = insert_early_school(body, section, campaign, meta.get("rail_hook"))
         body_html = (
-            f'<div class="with-rail"><article class="article">{head}<div class="prose">{body}</div>{author_box()}{related}</article>'
+            f'<div class="with-rail"><article class="article">{head}<div class="prose">{body}</div>{feedback_box(url) if url != "/procedures-manual/" else ""}{author_box()}{related}</article>'
             f'{render_rail(section, campaign, meta.get("rail_hook"), meta.get("rail_course"))}</div>'
         )
         art = {

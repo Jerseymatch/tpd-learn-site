@@ -41,3 +41,5 @@ function openVideoModal(a) {
   d.addEventListener("cancel", function () { d.remove(); });
   d.showModal();
 }
+
+document.querySelectorAll('.feedback-box').forEach(function(d){d.addEventListener('toggle',function(){var f=d.querySelector('iframe[data-src]');if(d.open&&f&&!f.src){f.src=f.getAttribute('data-src');}});});
