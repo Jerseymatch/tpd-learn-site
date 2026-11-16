@@ -54,7 +54,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
-| When a dealer should call the floor (and how) | calling-the-floor | planned | tag floor-calls (18 moments); fits /rules/ |
+| When a dealer should call the floor (and how) | calling-the-floor | drafting (/rules/, Nov 16 run) | tag floor-calls (18 moments); fits /rules/ |
 | Talking to players: table talk, staying neutral, regulars | talking-to-players | planned | tag player-talk (32 moments), casino-life |
 | Mistakes new dealers make (and how to recover at the table) | new-dealer-mistakes | planned | tag mistakes (31 moments), correction log generalized rows |
 | How to count down and announce large bets | counting-bets | live (/deal/counting-bets/) | tag counting-bets (19 moments), YT 84YDtS_VrN8 (whole stream on it); fits /deal/ next to making-change |
@@ -69,6 +69,8 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | What happens when a player acts out of turn | acting-out-of-turn | live | Class transcripts (Feb 3_11/3_16, Apr 5_4/5_6/5_20, Jun 7_29/7_31, Jul 8_12, Oct 10_19/11_13), RS8, RS14, RS15, TPD31, Mixed Games L10, YT W_B8yAuYz90 |
 | Exposed cards on the deal | exposed-cards | live | RS15, RS2, TPD3-4, correction log; must go beyond /deal/misdeals/ |
 | Running it twice | running-it-twice | live | YT RZWBGJbdNmw 24:34-32:32, class transcripts |
+| When to call the floor | calling-the-floor | drafting | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
+| String bets & verbal declarations (what's binding) | string-bets | drafting | RS14, TPD31, class transcripts, correction log, YT betting-rules moments |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
