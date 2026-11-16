@@ -22,8 +22,8 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | Misdeals | misdeals | live | RS15, corrections |
 | How to Build Side Pots (+ calculator) | side-pots | live | Lesson 32, Week 3 classes, YT aqsD251OjOo / Rd1-W4X_Sic |
 | Split Pots & Quartering | split-pots | live | TPD42, YT PUQG-WTBtDM, corrections |
-| Bomb Pots (Hold'em & PLO, double board) | bomb-pots | planned | TPD41, PLO bomb lesson, YT JdpiQlDOf94 / TjIUpqpmXRM |
-| Straddles, Missed Blinds & the Button | button-and-blinds | planned | Lessons 29-30 |
+| Bomb Pots (Hold'em & PLO, double board) | bomb-pots | live | TPD41, PLO bomb lesson, YT JdpiQlDOf94 / TjIUpqpmXRM |
+| Straddles, Missed Blinds & the Button | button-and-blinds | live | RS10 + class transcripts (Feb/Apr/Jun/Jul/Oct 2026); Lessons 29-30 not in tpd-knowledge |
 | Dealing Omaha & Reading Omaha Hands | how-to-deal-omaha | planned | Mixed games L1-5, YT y-k3F9U5vio |
 | Stud, Draw & Mixed Games | mixed-games | planned | Mixed games L6-10 |
 
@@ -67,10 +67,12 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/betting-rules/
 - /deal/misdeals/
 - /deal/split-pots/
+- /deal/bomb-pots/
+- /deal/button-and-blinds/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
-- Cash game page introduces missed blinds and straddles only briefly and says they get their own guide (button-and-blinds). Link it when that page is live.
+- Cash game page now links button-and-blinds from its missed blinds and straddles sections.
 - Flop/turn/river: Marc to confirm the turn technique. Lesson 7 says flip it in front of you and slide it into place ("both are right"); a July 2026 class says sliding wastes time and to bring cards close to the final spot. The page keeps both; adjust if he prefers one.
 - How to deal Texas hold'em page has no primary video (Lesson 8 is Remote School only). Add a public YouTube video if one fits, or ask Marc about a class clip.
 - Dealing a hand page covers betting, showdown and rake only at a basic level, deliberately; making-change, the-showdown, rake-and-tips and betting-rules are now live and linked from it.
@@ -86,6 +88,11 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Box cards: Lesson 15 says the dealer puts a box card straight into the muck and, in most rooms, calls a supervisor. The pitch page (from the older TPD lessons) says call the supervisor and let them kill it. The misdeals page gives Lesson 15's version and notes some rooms want the supervisor to kill it. Marc to confirm which he wants as the default, and the pitch page can be aligned.
 - Misdeals page: the substantial-action definition (three actions incl. a fold, or two players putting money in) is the house rulebook Marc read in Lesson 15, not TDA's wording. The page calls it "a common standard" and says rule sets vary.
 - Split pots: two class moments differ on WSOP stacking timing (one says the WSOP manual says stack by the river, another says wait until after the river). The page uses "it depends on the room; I like the WSOP's stack it by the river." Marc to confirm.
-- Split pots page links bomb pots nowhere yet (not live). Link it from the double-board sections when bomb-pots goes live.
+- Split pots now links bomb pots (double-board section + related).
 - YouTube moments: the only indexed video (84YDtS_VrN8) isn't in videos.json, and its upload date/duration couldn't be fetched from YouTube in the Nov 16 run (blocked), so no [[moment]] embeds were added. Its 15:14 moment (pushing a multiway pot without bringing everything to the middle) fits split-pots; 43:46 (why remote training works) fits near school/course CTAs.
+- Bomb pots (Nov 16): built from TPD41 + PLO bomb lesson + correction log. The community-call moment u1AgvH1MRvU 1:02:32 (quartering under pressure) fits well but wasn't embedded: its date/duration couldn't be fetched from YouTube again. Add it to videos.json and embed once fetched.
+- Bomb pots: Marc's hold'em demo chops to the dollar and lets all of an all-in player's chips play; the PLO lesson says loose change doesn't play in most rooms. Page keeps both as room-dependent.
+- Button-and-blinds (Nov 16): the "How the Button Moves" / missed-blinds course lessons (29-30) and Marc's straddle video aren't in tpd-knowledge, so the page is built from RS10 and class transcripts. No primary video; a short on buying the button or the dead button would be a strong one. Mississippi straddles and re-straddle action order are left out (no Marc source).
+- Button-and-blinds: seat-change posting threshold differs between sources (classes: skip three or more and you post; RS10: "more than three", sometimes two). Page gives three-or-more as the rule of thumb and says rooms vary. Marc to confirm.
+- Button-and-blinds: correction-log row 5_4_26 01:10:39 says a missed big blind posts just the big blind; the transcript shows $3. The row is wrong and wasn't used.
 
