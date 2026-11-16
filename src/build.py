@@ -374,6 +374,21 @@ def add_drill_lines(body, campaign):
     return re.sub(r'(<div class="classroom">.*?)(</div>)', lambda m: m.group(1) + line + m.group(2), body, flags=re.S)
 
 
+MANUAL_BOX = (
+    '<aside class="manual-box"><img src="/assets/manual-cover.jpg" alt="" width="120" height="158" loading="lazy">'
+    '<div><p class="kicker">Free download</p><p class="mb-title">Read a real poker room&rsquo;s dealer procedures manual</p>'
+    '<p>The manual a working room handed its dealers: house rules, dealer procedures, the rake and fills. 39 pages, free.</p>'
+    '<a class="btn" href="/procedures-manual/">Get the free manual</a></div></aside>'
+)
+
+
+def insert_manual_box(body):
+    m = re.search(r'<h2 id="[^"]*"[^>]*>\s*Common questions', body)
+    if m:
+        return body[:m.start()] + MANUAL_BOX + body[m.start():]
+    return body + MANUAL_BOX
+
+
 def insert_early_school(body, section, campaign, hook=None):
     # Before the 2nd H2 of the body (after the first real section); shown only on narrow screens.
     heads = [m.start() for m in re.finditer(r'<h2 id=', body)]
@@ -447,7 +462,7 @@ def footer():
         '<div class="foot-cols">'
         '<div><p class="foot-brand">True Poker Dealer</p><p>Learn to deal poker the way real poker rooms run, taught by '
         '<a href="/about/marc-shumsker/">Marc Shumsker</a>, a dealer, floor supervisor and shift manager who has hired and trained thousands of dealers.</p></div>'
-        f'<div><p class="foot-h">Train with Marc</p><a href="{e(utm(MAIN + "/freelessons", "footer", "free"))}">Free lessons</a>'
+        f'<div><p class="foot-h">Train with Marc</p><a href="/procedures-manual/">Free procedures manual</a><a href="{e(utm(MAIN + "/freelessons", "footer", "free"))}">Free lessons</a>'
         f'<a href="{e(utm(MAIN + "/complete-course", "footer", "course"))}">The Complete Course</a>'
         f'<a href="{e(utm(MAIN + "/remote-dealer-school", "footer", "school"))}">Remote Dealer School</a></div>'
         f'<div><p class="foot-h">Follow</p><a href="{YT_CHANNEL}">YouTube</a><a href="https://instagram.com/truepokerdealer">Instagram</a>'
@@ -574,6 +589,8 @@ def build_page(relpath, meta, raw_body, all_pages):
                 related = f'<nav class="related"><p class="rel-title">Keep going</p><ul>{"".join(items)}</ul></nav>'
         section = url.strip("/").split("/")[0]
         body = add_drill_lines(body, campaign)
+        if url != "/procedures-manual/":
+            body = insert_manual_box(body)
         body = insert_early_school(body, section, campaign, meta.get("rail_hook"))
         body_html = (
             f'<div class="with-rail"><article class="article">{head}<div class="prose">{body}</div>{author_box()}{related}</article>'
