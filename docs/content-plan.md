@@ -19,9 +19,9 @@ Status: **live**, **planned**, or **drafting**. Work roughly top to bottom withi
 | The Showdown | the-showdown | live | RS12, YT PCPvJy6b4iA / S2lMEkvnfno |
 | Rake, Promo Drop & Tips | rake-and-tips | live | RS13 |
 | The Technical Rules of Betting (min raise, all-in for less) | betting-rules | live | RS14, Lesson 31 |
-| Misdeals | misdeals | planned | RS15 |
+| Misdeals | misdeals | live | RS15, corrections |
 | How to Build Side Pots (+ calculator) | side-pots | live | Lesson 32, Week 3 classes, YT aqsD251OjOo / Rd1-W4X_Sic |
-| Split Pots & Quartering | split-pots | planned | TPD42, YT PUQG-WTBtDM |
+| Split Pots & Quartering | split-pots | live | TPD42, YT PUQG-WTBtDM, corrections |
 | Bomb Pots (Hold'em & PLO, double board) | bomb-pots | planned | TPD41, PLO bomb lesson, YT JdpiQlDOf94 / TjIUpqpmXRM |
 | Straddles, Missed Blinds & the Button | button-and-blinds | planned | Lessons 29-30 |
 | Dealing Omaha & Reading Omaha Hands | how-to-deal-omaha | planned | Mixed games L1-5, YT y-k3F9U5vio |
@@ -65,6 +65,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/the-showdown/
 - /deal/rake-and-tips/
 - /deal/betting-rules/
+- /deal/misdeals/
+- /deal/split-pots/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -80,3 +82,10 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Betting-rules page: Lesson 14 names a WSOP player (gesture example) and a well-known poker room manager (east/west min-raise conversation); both left off the page. Marc can add them if he wants.
 - Rake page: Lesson 13 mentions Texas "found a loophole" on taking a rake without a gaming license, and talks about home-game licensing; the page leaves legal/licensing questions out. A home-game page could cover it if Marc wants, with care.
 - Lesson 31 (How to Run Your Game) was listed as a betting-rules source but covers running the table in general, not betting rules, so it wasn't used. Better fit for a future "how to run a home game" page.
+- Misdeals page has no primary video (Lesson 15 is Remote School only; the 2020 Lesson 28 livestream on misdeals is on Vimeo with no transcript). A short on box cards / first card to the wrong seat would be a strong primary video.
+- Box cards: Lesson 15 says the dealer puts a box card straight into the muck and, in most rooms, calls a supervisor. The pitch page (from the older TPD lessons) says call the supervisor and let them kill it. The misdeals page gives Lesson 15's version and notes some rooms want the supervisor to kill it. Marc to confirm which he wants as the default, and the pitch page can be aligned.
+- Misdeals page: the substantial-action definition (three actions incl. a fold, or two players putting money in) is the house rulebook Marc read in Lesson 15, not TDA's wording. The page calls it "a common standard" and says rule sets vary.
+- Split pots: two class moments differ on WSOP stacking timing (one says the WSOP manual says stack by the river, another says wait until after the river). The page uses "it depends on the room; I like the WSOP's stack it by the river." Marc to confirm.
+- Split pots page links bomb pots nowhere yet (not live). Link it from the double-board sections when bomb-pots goes live.
+- YouTube moments: the only indexed video (84YDtS_VrN8) isn't in videos.json, and its upload date/duration couldn't be fetched from YouTube in the Nov 16 run (blocked), so no [[moment]] embeds were added. Its 15:14 moment (pushing a multiway pot without bringing everything to the middle) fits split-pots; 43:46 (why remote training works) fits near school/course CTAs.
+
