@@ -255,3 +255,6 @@ footer.site .fine a{display:inline}
 .brand-text{border-left:1px solid rgba(255,255,255,.35);padding-left:.7rem}
 .brand-text small{margin:0}
 @media (max-width:520px){.brand-logo{height:34px}.brand-text{display:none}}
+header.site .wrap{padding-top:.75rem;padding-bottom:.75rem}
+.brand{padding:.15rem 0}
+@media (max-width:820px){.manual-cover{max-width:150px}}
