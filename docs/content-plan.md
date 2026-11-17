@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice, calling-the-floor, verbal-declarations live Nov 16; showdown-disputes and /deal/game-protection live Nov 17; next: career ideas (dealer-burnout, wsop-and-circuit), more /rules/ topics as sources allow)
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice, calling-the-floor, verbal-declarations live Nov 16; showdown-disputes, /deal/game-protection and /rules/dead-hands live Nov 17; next: career ideas (dealer-burnout, wsop-and-circuit), more /rules/ topics as sources allow)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -73,7 +73,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | When to call the floor | calling-the-floor | live | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
 | Verbal is binding: what counts as your action | verbal-declarations | live (string bets themselves stay on /deal/betting-rules/) | RS14, class transcripts, correction log, YT betting-rules moments |
 | Showdown disputes: one card, mucked winners, show one show all, slow rolls | showdown-disputes | live | RS9, RS12, RS14, class transcripts (Feb 3_2, Apr 5_4/5_18, Jul 8_5, Oct 11_3), correction log, YT showdown moments |
-| Dead hands: what kills a hand (and what doesn't) | dead-hands | drafting (Nov 17) | RS12, RS14, RS15, class transcripts, correction log, YT misdeals/showdown moments |
+| Dead hands: what kills a hand (and what doesn't) | dead-hands | live | RS12, RS14, RS15, class transcripts, correction log, YT misdeals/showdown moments |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
@@ -126,6 +126,7 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /rules/verbal-declarations/
 - /rules/showdown-disputes/
 - /deal/game-protection/
+- /rules/dead-hands/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -185,6 +186,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Rules hub has no "coming next" cards now. Add one when the next /rules/ page is picked.
 - Showdown-disputes page (Nov 17): goes beyond /deal/the-showdown/ and cards-speak with one-card showdowns ("it takes two to win", initiative vs showdown order, possible ties), the silent muck of a winner, the "ten high" framing story, show one show all in depth, slow rolls, heads-up river flips, and owning a misread. Moments: 4N3G8b5pvgc 57:34, gROCpHKuXF0 5:29, bFYqqjU9OwY 31:48, ivVAYIWsAew 41:40, fieG5mvinQs 1:49:42, g1p0ZkRcXtA 49:01 (4N3G8b5pvgc, gROCpHKuXF0, ivVAYIWsAew added to videos.json, manifest date). Heads-up flip: g1p0ZkRcXtA says "most rooms allow" it in cash, Lesson 14 says some rooms allow it and many have stopped; page says "a lot of cash games allow it, know your room." Left out: the Jamie Gold / 2006 WSOP history of the tournament flip rule (g1p0ZkRcXtA 49:01), the "Versace" player story (8_7_26_June, named player), YqhFG42qqkY straight-flush story (private game), Nancy Bernstein stream moments (speaker unclear), the Mike Smith / Maryland Live turn-cards-up practice (named person). Linked from the-showdown and cards-speak.
 - Game-protection page (Nov 17): put in /deal/ (mostly technique: deck, muck, stub, clearing hands, bank, chips), order 22. Moments: SSHiLIm9YeM 28:36, N41xafvr0LA 55:47, bFYqqjU9OwY 1:34:13, Sf3BKrj43Gc 56:34, C1KF17XdtDg 30:54, i71mRl_J76Y 37:58, EWnALewzuUc 1:01:18 (SSHiLIm9YeM, N41xafvr0LA, C1KF17XdtDg, i71mRl_J76Y, bFYqqjU9OwY added to videos.json, manifest date). Names Victor (COO of Texas Card House) on clearing your hands (Sf3BKrj43Gc 56:34). Stub counting: "most rooms once per down; some, the WSOP among them, twice." Two hands in the tray: RS4 says fine if they never cross, a July 2026 class says try not to; page gives both, safest is one. Marc to confirm his default. Left out: room names in the missing-ace story (also on flop-turn-river), Hard Rock / Coconut Creek details, the claim that Texas rooms can't use shuffle machines, fights and ejections (could be its own page), a guest's comment in F2-h8Fn-m54, RFID prices, Nancy Bernstein stream moments, yyL5wOwd11Y (personal history), R_vOQHJ3RB0 50:49 (criticizes named people). Linked from working-the-poker-bank and how-to-shuffle-cards (related).
+
+- Dead-hands page (Nov 17): built from RS9, RS12, RS14, RS15, classes (4_29, 5_6, 3_2, 7_8, 8_3 June), correction log (never go into the muck, muck onto live cards, tap before turning) and YT moments -cgrULCqgn8 27:50, elIiBloYowM 1:29:30, 9UwEtMWdOY0 50:11, gROCpHKuXF0 29:46 (first three added to videos.json, manifest date). The first room's board-kill rule is told as "the first room I worked in, in Washington State" (room not named). Money back after a mucked hand is given as "how it often works nowadays" and the supervisor's decision. "Too few cards may be ruled live" is flagged as the rulebook Marc used, not universal. Left out: the private-home-game angle from 8_3_26 (a student's job story), Matt's comments in 9UwEtMWdOY0 46:31, Omaha two-up/two-down (-cgrULCqgn8 11:13). Linked from misdeals and showdown-disputes (related).
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
