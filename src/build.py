@@ -394,8 +394,7 @@ def feedback_box(url):
         '<details class="feedback-box"><summary><span class="kicker">Deal it differently where you work?</span>'
         '<strong>Tell me what you see differently.</strong> Rooms do things their own way, and if you think I got '
         'something wrong, I want to hear it. I read every one.</summary>'
-        f'<iframe data-src="{src}" title="Send Marc your feedback" loading="lazy" style="width:100%;height:560px;border:none"></iframe>'
-        '<script src="https://links.truepokerdealer.com/js/form_embed.js" defer></script></details>'
+        f'<iframe data-src="{src}" title="Send Marc your feedback" class="feedback-iframe"></iframe></details>'
     )
 
 def insert_manual_box(body):
