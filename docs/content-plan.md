@@ -51,7 +51,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 |---|---|---|---|
 | Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | live | Class transcripts + correction log (pitch/shuffle/chip tension, ganglion cyst, trigger finger, what-am-I-working-on), YT nue9a3vdjQg (primary; OT guest attributed), 3hFkBE9WHAw, g6iPq4pIX9A, X3Hdw_ffgQU |
 | Dealer burnout and the money mistakes that cause it | dealer-burnout | live (/career/dealer-burnout/) | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
-| Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
+| Dealing the WSOP and the tournament circuit | wsop-and-circuit | live (/career/wsop-and-circuit/) | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
 | When a dealer should call the floor (and how) | calling-the-floor | live (/rules/calling-the-floor/) | tag floor-calls (18 moments); fits /rules/ |
@@ -63,6 +63,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Game protection: protecting the deck, the pot and the game (Nov 16 idea) | game-protection | live (/deal/game-protection/) | tag game-protection (79 moments), surveillance (17); fits /deal/ or /rules/ |
 | How to run a home poker game (dealer's view) (Nov 16 idea) | home-games | planned | tag home-games (53 moments); Lesson 31; fits Stories & home games; avoid licensing/legal claims (see rake follow-up) |
 | Showdown disputes: tabled hands, mucked winners, slow rolls | showdown-disputes | live (/rules/showdown-disputes/) | tags showdown (41), floor-calls (100); YT fieG5mvinQs 1:26:04, EWnALewzuUc 1:06:10; fits /rules/ |
+| How to practice dealing at home: what to drill, how long, and recording yourself (Nov 17 idea) | practice-at-home | planned | tags practice (17), remote-school, complete-course; class transcripts on homework; fits /deal/ or /career/ |
 
 ## Rulings (`/rules/`), "what happens if…" (short, high-traffic)
 | Page | Slug | Status | Sources |
@@ -128,6 +129,7 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /deal/game-protection/
 - /rules/dead-hands/
 - /career/dealer-burnout/
+- /career/wsop-and-circuit/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -191,6 +193,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Dead-hands page (Nov 17): built from RS9, RS12, RS14, RS15, classes (4_29, 5_6, 3_2, 7_8, 8_3 June), correction log (never go into the muck, muck onto live cards, tap before turning) and YT moments -cgrULCqgn8 27:50, elIiBloYowM 1:29:30, 9UwEtMWdOY0 50:11, gROCpHKuXF0 29:46 (first three added to videos.json, manifest date). The first room's board-kill rule is told as "the first room I worked in, in Washington State" (room not named). Money back after a mucked hand is given as "how it often works nowadays" and the supervisor's decision. "Too few cards may be ruled live" is flagged as the rulebook Marc used, not universal. Left out: the private-home-game angle from 8_3_26 (a student's job story), Matt's comments in 9UwEtMWdOY0 46:31, Omaha two-up/two-down (-cgrULCqgn8 11:13). Linked from misdeals and showdown-disputes (related).
 
 - Dealer-burnout page (Nov 17): built from YT index notes only (no class transcripts cover burnout much): -CyrEgcnmkk (hero; burnout stream), elIiBloYowM (50+ hour challenge conclusions), 6-bPE1yHQHA, 4N3G8b5pvgc, SSHiLIm9YeM, fieG5mvinQs, eoWtBTK6s8U, 84YDtS_VrN8, GCxAiNwRRq8, eGvFZuJVUOg, PDnjURwsq6s, F2-h8Fn-m54 and others (-CyrEgcnmkk, eoWtBTK6s8U, 6-bPE1yHQHA added to videos.json, manifest date). Left out (rule 8 / personal): Marc's first-casino hourly pay (-CyrEgcnmkk 27:16), compound-interest figures (18:56), the student-loan story (elIiBloYowM 5:27), why the challenge ended (family travel), yearly earnings by days per week (SSHiLIm9YeM 10:45). Not put in Marc's mouth: guest Chris's learn-a-trade advice (ykGAwOUS6Zs 25:19), Mike Laake's "90%" estimate (PIIX329cgG8 54:08), "don't copy the people around you" (f-5imHmeHyI 20:16, speaker unclear in the Jaz interview). Career hub "coming next" now shows What Poker Rooms Look For.
+
+- WSOP & circuit page (Nov 17): built from YT index notes (wsop tag, ~150 moments) and the July 2026 cohort's pre-WSOPC classes (9_3_26 tournament dealing, 9_2_26_Daytime uniform and "treat it as an audition", 8_31_26 muck-left/stub standards). Primary video LLmPLJ1bnYk; moments h-GyH_cx5P8 11:46, fSP7Ats39DM 52:32, bHgXN3RvBb8 3:42, GGnnQKhajUU 33:16, FrjgBD-P-3c 51:53, gppYw2y6LwM 24:51, LLmPLJ1bnYk 10:34, 9wsXu-0dGZA 0:38 (LLmPLJ1bnYk, gppYw2y6LwM, bHgXN3RvBb8 added to videos.json, manifest date). No pay or down-rate figures (WSOP pay is still an open question below; the page links the pay guide instead). All grads unnamed. Left out: the Chase dealer-coordinator reroute (pending item), Mike's stories and estimates, the WSOP dealer-rating prize amounts, the "cut the deck without shuffling" story, TCH's hold'em-only-days option for the class, "rooms like mixing in cash" (PCVTD78J2Rk 11:08, speaker unclear), and class lines that were students talking (pack 2-3 shirts, the two-minute push detail, "every one of you is better than the summer WSOP dealers" on 8_21_26, speaker unclear). Marc's "waiting until one of my kids can work it with me" line is from several public streams; Marc can cut it if he'd rather. Audition format and 80% scoring are dated (2020 stream) and say so.
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
