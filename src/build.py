@@ -463,8 +463,8 @@ def header(current_section):
     free = utm(CTAS["free"]["url"], "nav", "free")
     return (
         '<header class="site"><div class="wrap">'
-        '<a class="brand" href="/"><span class="brand-mark" aria-hidden="true">&#9824;</span>'
-        '<span class="brand-text">True Poker Dealer<small>Learn to deal poker</small></span></a>'
+        '<a class="brand" href="/"><img class="brand-logo" src="/assets/tpd-logo-white.png" alt="True Poker Dealer" width="284" height="96">'
+        '<span class="brand-text"><small>Learn to deal poker</small></span></a>'
         f'<nav class="primary">{"".join(links)}<a class="btn btn-sm" href="{e(free)}">Free lessons</a></nav>'
         "</div></header>"
     )
@@ -518,7 +518,8 @@ def page_shell(meta, url, body_html, schema_graph, section):
 {robots}{og}
 <link rel="preconnect" href="https://i.ytimg.com">
 <link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <script type="application/ld+json">
 {ld}
 </script>
