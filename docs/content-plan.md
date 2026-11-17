@@ -50,7 +50,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
 | Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | live | Class transcripts + correction log (pitch/shuffle/chip tension, ganglion cyst, trigger finger, what-am-I-working-on), YT nue9a3vdjQg (primary; OT guest attributed), 3hFkBE9WHAw, g6iPq4pIX9A, X3Hdw_ffgQU |
-| Dealer burnout and the money mistakes that cause it | dealer-burnout | planned | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
+| Dealer burnout and the money mistakes that cause it | dealer-burnout | drafting (Nov 17) | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
@@ -73,6 +73,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | When to call the floor | calling-the-floor | live | RS9, RS14, RS15, TPD31, class transcripts, correction log, YT floor-calls moments |
 | Verbal is binding: what counts as your action | verbal-declarations | live (string bets themselves stay on /deal/betting-rules/) | RS14, class transcripts, correction log, YT betting-rules moments |
 | Showdown disputes: one card, mucked winners, show one show all, slow rolls | showdown-disputes | live | RS9, RS12, RS14, class transcripts (Feb 3_2, Apr 5_4/5_18, Jul 8_5, Oct 11_3), correction log, YT showdown moments |
+| Dead hands: what kills a hand (and what doesn't) | dead-hands | drafting (Nov 17) | RS12, RS14, RS15, class transcripts, correction log, YT misdeals/showdown moments |
 
 Other topics:
 Exposed card on the deal; box card; card off the table; acting out of turn; string bets; all-in for less (does it reopen betting?); verbal declarations; cards speak at showdown; who shows first; running it twice; dead hands; misdeal criteria; the dealer exposes the board early; chopping blinds. Sources: RS9, RS12, RS14, RS15, the correction log.
