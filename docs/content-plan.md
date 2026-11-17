@@ -2,7 +2,7 @@
 
 Status: **live**, **planned**, or **drafting**. Work roughly top to bottom within each section. "Sources" points at the best material in `tpd-knowledge` (RS = Remote School edited lesson, TPD = original course lesson, YT = public YouTube video).
 
-## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice, calling-the-floor, verbal-declarations live Nov 16; showdown-disputes, /deal/game-protection and /rules/dead-hands live Nov 17; next: career ideas (dealer-burnout, wsop-and-circuit), more /rules/ topics as sources allow)
+## PRIORITY (Marc, Nov 16, 11:32am): fill in the core site so search engines trust it (Omaha, mixed games, counting-bets and /rules/ acting-out-of-turn, exposed-cards, running-it-twice, calling-the-floor, verbal-declarations live Nov 16; showdown-disputes, /deal/game-protection and /rules/dead-hands and /career/dealer-burnout live Nov 17; next: career ideas (wsop-and-circuit, what-poker-rooms-look-for), more /rules/ topics as sources allow)
 Order: (1) the remaining How to Deal pages (Omaha, mixed games, counting bets), (2) the /rules/ "what happens if" pages (each one short, sourced and specific; start the /rules/ hub with the first ones), (3) the remaining career ideas below. Depth and accuracy over speed, but keep moving. The first-six-months topic is ON HOLD (paid product).
 
 ## Earlier PRIORITY (Marc, Nov 16): the "Becoming a Dealer" section (done)
@@ -50,7 +50,7 @@ Topics Marc covers again and again in livestreams, with no page yet. Each one be
 | Page idea | Slug | Status | Sources |
 |---|---|---|---|
 | Staying healthy as a poker dealer (back, wrists, sleep, long shifts) | dealer-health | live | Class transcripts + correction log (pitch/shuffle/chip tension, ganglion cyst, trigger finger, what-am-I-working-on), YT nue9a3vdjQg (primary; OT guest attributed), 3hFkBE9WHAw, g6iPq4pIX9A, X3Hdw_ffgQU |
-| Dealer burnout and the money mistakes that cause it | dealer-burnout | drafting (Nov 17) | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
+| Dealer burnout and the money mistakes that cause it | dealer-burnout | live (/career/dealer-burnout/) | tags burnout, money-mindset; YT 84YDtS_VrN8 31:48 |
 | Dealing the WSOP and the tournament circuit | wsop-and-circuit | planned | tags wsop, tournaments; YT Ljnk9aLZf2Y |
 | What poker rooms look for when they hire | what-poker-rooms-look-for | planned | tags getting-hired, poker-rooms, floor-supervisor |
 | Working at Texas Card House | texas-card-house | planned | tag texas-card-house; Jae Chung interview |
@@ -127,6 +127,7 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - /rules/showdown-disputes/
 - /deal/game-protection/
 - /rules/dead-hands/
+- /career/dealer-burnout/
 
 ## Follow-ups
 - Cards speak and cash game pages have no primary video (Lessons 9 and 10 are Remote School only, and no public YouTube video covers these topics). Add one if Marc records a short on either.
@@ -188,6 +189,8 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
 - Game-protection page (Nov 17): put in /deal/ (mostly technique: deck, muck, stub, clearing hands, bank, chips), order 22. Moments: SSHiLIm9YeM 28:36, N41xafvr0LA 55:47, bFYqqjU9OwY 1:34:13, Sf3BKrj43Gc 56:34, C1KF17XdtDg 30:54, i71mRl_J76Y 37:58, EWnALewzuUc 1:01:18 (SSHiLIm9YeM, N41xafvr0LA, C1KF17XdtDg, i71mRl_J76Y, bFYqqjU9OwY added to videos.json, manifest date). Names Victor (COO of Texas Card House) on clearing your hands (Sf3BKrj43Gc 56:34). Stub counting: "most rooms once per down; some, the WSOP among them, twice." Two hands in the tray: RS4 says fine if they never cross, a July 2026 class says try not to; page gives both, safest is one. Marc to confirm his default. Left out: room names in the missing-ace story (also on flop-turn-river), Hard Rock / Coconut Creek details, the claim that Texas rooms can't use shuffle machines, fights and ejections (could be its own page), a guest's comment in F2-h8Fn-m54, RFID prices, Nancy Bernstein stream moments, yyL5wOwd11Y (personal history), R_vOQHJ3RB0 50:49 (criticizes named people). Linked from working-the-poker-bank and how-to-shuffle-cards (related).
 
 - Dead-hands page (Nov 17): built from RS9, RS12, RS14, RS15, classes (4_29, 5_6, 3_2, 7_8, 8_3 June), correction log (never go into the muck, muck onto live cards, tap before turning) and YT moments -cgrULCqgn8 27:50, elIiBloYowM 1:29:30, 9UwEtMWdOY0 50:11, gROCpHKuXF0 29:46 (first three added to videos.json, manifest date). The first room's board-kill rule is told as "the first room I worked in, in Washington State" (room not named). Money back after a mucked hand is given as "how it often works nowadays" and the supervisor's decision. "Too few cards may be ruled live" is flagged as the rulebook Marc used, not universal. Left out: the private-home-game angle from 8_3_26 (a student's job story), Matt's comments in 9UwEtMWdOY0 46:31, Omaha two-up/two-down (-cgrULCqgn8 11:13). Linked from misdeals and showdown-disputes (related).
+
+- Dealer-burnout page (Nov 17): built from YT index notes only (no class transcripts cover burnout much): -CyrEgcnmkk (hero; burnout stream), elIiBloYowM (50+ hour challenge conclusions), 6-bPE1yHQHA, 4N3G8b5pvgc, SSHiLIm9YeM, fieG5mvinQs, eoWtBTK6s8U, 84YDtS_VrN8, GCxAiNwRRq8, eGvFZuJVUOg, PDnjURwsq6s, F2-h8Fn-m54 and others (-CyrEgcnmkk, eoWtBTK6s8U, 6-bPE1yHQHA added to videos.json, manifest date). Left out (rule 8 / personal): Marc's first-casino hourly pay (-CyrEgcnmkk 27:16), compound-interest figures (18:56), the student-loan story (elIiBloYowM 5:27), why the challenge ended (family travel), yearly earnings by days per week (SSHiLIm9YeM 10:45). Not put in Marc's mouth: guest Chris's learn-a-trade advice (ykGAwOUS6Zs 25:19), Mike Laake's "90%" estimate (PIIX329cgG8 54:08), "don't copy the people around you" (f-5imHmeHyI 20:16, speaker unclear in the Jaz interview). Career hub "coming next" now shows What Poker Rooms Look For.
 
 ## Needs Marc's OK (items Claude thinks might be sensitive; ask before publishing)
 - Pay page: Marc's own Texas hourly ("over $50 an hour, usually overnight", RDS About lesson). Left out.
