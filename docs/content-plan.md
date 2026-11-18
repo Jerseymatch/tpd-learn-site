@@ -306,3 +306,5 @@ Tipped a car (YT Xue5pXFiOMs), 40 surveillance write-ups (YT UMW9Ev4gtvk), the "
   - Dead-hands page: the first Washington room "killed a hand in a $1,000 pot" over the touch-the-board rule. Class only, old employer (named by state only). Low; keep?
   - Betting-rules page: a room's dealer manual said one chip short is a call, "and we didn't follow it." From course Lesson 14. Low; keep?
   - Dealer-health page: "a student who'd mentioned wrist trouble reach[ed] across the table." Class only, anonymous, a student's health. Low; keep?
+
+- Privacy review decisions (Marc, Nov 18): 1 debt payoff story: KEEP and talk about it openly; 2-5 done (floor-call sentence cut; Coconut Creek → "one South Florida room"; TCH removed from the button and burn-card stories); 6-8 KEEP (Dallas hiring line, moonlighting line, perspective line).
