@@ -51,5 +51,5 @@ See the docstring at the top of `src/build.py`: `[[video]]`, `[[lite]]`, `[[shor
 ## Infrastructure
 - GitHub `Jerseymatch/tpd-learn-site` (public). The Claude GitHub App has access. Cloudflare Pages auto-deploys `main`. A real `404.html` exists. `_redirects` sends the old `/guide/*` URLs to `/deal/`.
 - Google Search Console: Domain property `truepokerdealer.com` under truepokerdealer@gmail.com. The sitemap is submitted. Re-submit after big batches.
-- **Claude can't see Search Console yet (Nov 17).** The account isn't signed in on Marc's browser. Whenever Marc asks whether Google is picking up the site, first remind him of the one step (his request, Nov 17): in Search Console, signed in as truepokerdealer@gmail.com, go to Settings → Users and permissions → add shumsker@gmail.com (or sign in to truepokerdealer@gmail.com in his Chrome). Delete this note once access works.
+- Search Console access works (Nov 18): shumsker@gmail.com is an owner, so Claude in Chrome on Marc's Mac can read it. The learn site sitemap was resubmitted Nov 18 (58 pages discovered).
 - Long-term plan: move the content onto truepokerdealer.com subfolders, with the student portal on its own subdomain. This needs Marc's approval and a careful plan, because student logins are involved.
