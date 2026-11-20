@@ -105,7 +105,7 @@ CTAS = {
     "school": {
         "kicker": "Remote Dealer School",
         "title": "Want me to watch you deal and correct you live?",
-        "body": "Small Zoom classes where I watch your hands and fix your mechanics in real time, until you're ready to pass an audition.",
+        "body": "Small Zoom classes where I watch your hands and fix your mechanics in real time, to get you ready for your audition.",
         "button": "See Remote Dealer School",
         "url": MAIN + "/remote-dealer-school",
     },
@@ -476,7 +476,7 @@ def footer():
         '<footer class="site"><div class="wrap">'
         '<div class="foot-cols">'
         '<div><p class="foot-brand">True Poker Dealer</p><p>Learn to deal poker the way real poker rooms run, taught by '
-        '<a href="/about/marc-shumsker/">Marc Shumsker</a>, a dealer, floor supervisor and shift manager who has hired and trained thousands of dealers.</p></div>'
+        '<a href="/about/marc-shumsker/">Marc Shumsker</a>, a dealer, floor supervisor and shift manager who has run more than 1,000 live dealer auditions and taught more than 10,000 people to deal.</p></div>'
         f'<div><p class="foot-h">Train with Marc</p><a href="/procedure-manual/">Free procedure manual</a><a href="{e(utm(MAIN + "/freelessons", "footer", "free"))}">Free lessons</a>'
         f'<a href="{e(utm(MAIN + "/complete-course", "footer", "course"))}">The Complete Course</a>'
         f'<a href="{e(utm(MAIN + "/remote-dealer-school", "footer", "school"))}">Remote Dealer School</a></div>'
