@@ -460,6 +460,9 @@ def header(current_section):
         s = SECTIONS[key]
         cur = ' aria-current="page"' if key == current_section else ""
         links.append(f'<a href="{s["path"]}"{cur}>{s["name"]}</a>')
+        if key == "rules":
+            # Mixed Nuts, Michael Garber's free hand-reading game (Marc, Nov 23): easy to find from every page
+            links.append('<a class="nav-game" href="/deal/mixed-nuts/">Hand-Reading Game <span class="nav-badge">Free</span></a>')
     free = utm(CTAS["free"]["url"], "nav", "free")
     return (
         '<header class="site"><div class="wrap">'

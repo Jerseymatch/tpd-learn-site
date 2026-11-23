@@ -258,3 +258,5 @@ footer.site .fine a{display:inline}
 header.site .wrap{padding-top:.75rem;padding-bottom:.75rem}
 .brand{padding:.15rem 0}
 @media (max-width:820px){.manual-cover{max-width:150px}}
+
+.nav-badge{display:inline-block;font:700 .62rem var(--sans,sans-serif);text-transform:uppercase;letter-spacing:.06em;background:#e5c06a;color:#123;border-radius:6px;padding:.1rem .35rem;margin-left:.25rem;vertical-align:2px}
