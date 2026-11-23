@@ -12,3 +12,7 @@
 
 /downloads/*
   X-Robots-Tag: noindex
+/apps/*
+  X-Robots-Tag: noindex
+/apps/mixed-nuts/Build/*
+  Cache-Control: public, max-age=604800

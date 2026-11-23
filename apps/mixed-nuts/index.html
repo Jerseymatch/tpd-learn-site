@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mixed Nuts: Poker Hand-Reading Practice, by Michael Garber | True Poker Dealer</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Play Mixed Nuts, the free poker hand-reading practice game created by Michael Garber.">
+<link rel="canonical" href="https://learn.truepokerdealer.com/deal/mixed-nuts/">
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+<style>
+  html,body{margin:0;background:#0f3d2e;color:#f4efe2;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;text-align:center}
+  .bar{display:flex;justify-content:space-between;align-items:center;gap:.5rem;padding:.5rem .8rem;font-size:.85rem;max-width:900px;margin:0 auto}
+  .bar a{color:#e5c06a;text-decoration:none}
+  .credit{opacity:.9}
+  #wrap{display:flex;justify-content:center}
+  #unity-canvas{background:#231F20;width:min(450px,100vw,calc((100vh - 48px)/2));height:calc(min(450px,100vw,calc((100vh - 48px)/2))*2)}
+  #loading{position:absolute;left:0;right:0;top:45%;font-size:1rem}
+</style>
+</head>
+<body>
+<div class="bar"><a href="/deal/mixed-nuts/">&larr; About Mixed Nuts</a><span class="credit">Created by Michael Garber</span></div>
+<div id="wrap"><canvas id="unity-canvas" width="450" height="900"></canvas></div>
+<div id="loading">Loading Mixed Nuts…</div>
+<script src="Build/webGL.loader.js"></script>
+<script>
+  createUnityInstance(document.querySelector("#unity-canvas"), {
+    dataUrl: "Build/webGL.data",
+    frameworkUrl: "Build/webGL.framework.js",
+    codeUrl: "Build/webGL.wasm",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "RiffRaffGames",
+    productName: "mixednuts",
+    productVersion: "1.03"
+  }).then(function(){document.getElementById("loading").remove();})
+    .catch(function(m){document.getElementById("loading").textContent="Mixed Nuts couldn't load in this browser. Try Chrome or Safari on a computer.";});
+</script>
+</body>
+</html>
