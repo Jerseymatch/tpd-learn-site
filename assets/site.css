@@ -264,3 +264,7 @@ header.site .wrap{padding-top:.75rem;padding-bottom:.75rem}
 .mn-shot{margin:1.2rem auto;text-align:center;max-width:280px}
 .mn-shot img{width:100%;height:auto;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.25);display:block}
 .mn-shot figcaption{font-size:.85rem;color:#666;margin-top:.5rem}
+/* Keep logo and menu on one row on desktop (Nov 23, after adding Hand-Reading Game) */
+@media (min-width:641px){header.site .brand-text{display:none}}
+@media (min-width:641px){nav.primary{gap:.95rem}}
+@media (min-width:641px) and (max-width:1050px){nav.primary{font-size:.85rem;gap:.75rem}}
